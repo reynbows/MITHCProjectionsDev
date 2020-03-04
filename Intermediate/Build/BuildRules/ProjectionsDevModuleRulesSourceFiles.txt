@@ -1,0 +1,11 @@
+/Volumes/Robin/unreal_projects/MITHCProjectionsDev/Source/ProjectionsDev/ProjectionsDev.Build.cs
+/Volumes/Robin/unreal_projects/MITHCProjectionsDev/Plugins/DDTools/Source/DDManager/DDManager.Build.cs
+/Volumes/Robin/unreal_projects/MITHCProjectionsDev/Plugins/DDTools/Source/DDLog/DDLog.Build.cs
+/Volumes/Robin/unreal_projects/MITHCProjectionsDev/Plugins/DDTools/Source/DDBlueprints/DDBlueprints.Build.cs
+/Volumes/Robin/unreal_projects/MITHCProjectionsDev/Plugins/DDTools/Source/DDBase/DDBase.Build.cs
+/Volumes/Robin/unreal_projects/MITHCProjectionsDev/Plugins/DDTools/Source/DDHelpers/DDHelpers.Build.cs
+/Volumes/Robin/unreal_projects/MITHCProjectionsDev/Plugins/DDTools/Source/ThirdParty/depsReLog/depsReLog.Build.cs
+/Volumes/Robin/unreal_projects/MITHCProjectionsDev/Plugins/highCastlePD/Source/highCastlePD/highCastlePD.Build.cs
+/Volumes/Robin/unreal_projects/MITHCProjectionsDev/Plugins/highCastlePD/Source/ThirdParty/depshighCastlePD/depshighCastlePD.Build.cs
+/Volumes/Robin/unreal_projects/MITHCProjectionsDev/Source/ProjectionsDev.Target.cs
+/Volumes/Robin/unreal_projects/MITHCProjectionsDev/Source/ProjectionsDevEditor.Target.cs

@@ -1,0 +1,1 @@
+../../../ProjectionsDev/ProjectionsDev.uproject  /Game/Maps/ARMap -Messaging -SessionId=35459FE0B84F36C8B8689EA94B9D11CB -SessionOwner="rebeccajarrell" -SessionName="Launch On Device" -iterative

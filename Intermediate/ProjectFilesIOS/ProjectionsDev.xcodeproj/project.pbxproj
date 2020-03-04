@@ -1,0 +1,1689 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0C85F79A3782A2230DBB49C9 /* AndroidEngine.ini in Sources */ = {isa = PBXBuildFile; fileRef = 7451D3F36FE827DF64027CFE /* AndroidEngine.ini */; };
+		1CA02256E208777020EF3683 /* DefaultEditor.ini in Sources */ = {isa = PBXBuildFile; fileRef = 5873D72E80F5FC38B15BAE4B /* DefaultEditor.ini */; };
+		2C4E399CAD3837ECD0F8CBD6 /* DefaultEngine.ini in Sources */ = {isa = PBXBuildFile; fileRef = 4E6FC01DBECF6EAFE3EBE34A /* DefaultEngine.ini */; };
+		24EDCC7DA8ED33C0F2D72993 /* DefaultGame.ini in Sources */ = {isa = PBXBuildFile; fileRef = CEDBC2E8B849B360A801E011 /* DefaultGame.ini */; };
+		34DF79E2EDFE67416BEF77BF /* DefaultInput.ini in Sources */ = {isa = PBXBuildFile; fileRef = 6BB943E2C40AE476452D4EE3 /* DefaultInput.ini */; };
+		06D09C9D1C69CC069095D667 /* IOSEngine.ini in Sources */ = {isa = PBXBuildFile; fileRef = 07CD09E84C53B2B0707A6D73 /* IOSEngine.ini */; };
+		36F0075D056E7E0909F99367 /* LinuxEngine.ini in Sources */ = {isa = PBXBuildFile; fileRef = E60406A3EF4238DE7A6CECA2 /* LinuxEngine.ini */; };
+		DE3F921150CC8D8B6329672C /* MacEngine.ini in Sources */ = {isa = PBXBuildFile; fileRef = 626E002216CD5D0D39A20148 /* MacEngine.ini */; };
+		4C0FC12E428EF8C903657EC6 /* PS4Engine.ini in Sources */ = {isa = PBXBuildFile; fileRef = DB6DB93C6B0703BD9DDA4180 /* PS4Engine.ini */; };
+		4115C7AD0EDE683C3D4AC440 /* SwitchEngine.ini in Sources */ = {isa = PBXBuildFile; fileRef = 0A5F49D4309D28FCF03A47A9 /* SwitchEngine.ini */; };
+		1321A2329E44AA72CE41EC2C /* WindowsEngine.ini in Sources */ = {isa = PBXBuildFile; fileRef = C64BBB25FD428890A978320C /* WindowsEngine.ini */; };
+		BE2F8C00B1449007CE1E99ED /* XboxOneEngine.ini in Sources */ = {isa = PBXBuildFile; fileRef = 3C369DF99F5272C9721C0DE5 /* XboxOneEngine.ini */; };
+		8231D1AAD004766EF83A3428 /* DDTools.uplugin in Sources */ = {isa = PBXBuildFile; fileRef = 75DB2B09D8F10E56E8A42826 /* DDTools.uplugin */; };
+		E4E0267EB2F2D73BA45B3920 /* Icon128.png in Sources */ = {isa = PBXBuildFile; fileRef = DFE8B3FB875028E32C1E8EFB /* Icon128.png */; };
+		13823C9BA70DFCD6DA2D4292 /* DDBase.Build.cs in Sources */ = {isa = PBXBuildFile; fileRef = 3BF83D9298F81B40C18AB2C0 /* DDBase.Build.cs */; };
+		E8C7FCEB107E0257250A95EB /* DDBase.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 259225FEDDB46D8E2537CE5F /* DDBase.cpp */; };
+		25C5F993C9E15889D07BB3E0 /* DDBase.h in Sources */ = {isa = PBXBuildFile; fileRef = 1010C65B2AEA6D3162516D05 /* DDBase.h */; };
+		9611096B5E54E3D4F02A2DAD /* DDBlueprints.Build.cs in Sources */ = {isa = PBXBuildFile; fileRef = 63C4896EDF33839AD0D3219B /* DDBlueprints.Build.cs */; };
+		48C2D5AF12EC69E5350AEED4 /* DDBlueprintLibrary.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6C453085C9AE573604CA0968 /* DDBlueprintLibrary.cpp */; };
+		390397C21FEE82C3EF6E229B /* DDBlueprints.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7F34C103C1487858D5B50299 /* DDBlueprints.cpp */; };
+		03FED0217CEB977EB96C750F /* DDBlueprintLibrary.h in Sources */ = {isa = PBXBuildFile; fileRef = 54A7C546872BE4FD22940595 /* DDBlueprintLibrary.h */; };
+		ED5375BB52B0938400FEBE21 /* DDBlueprints.h in Sources */ = {isa = PBXBuildFile; fileRef = 1E604704D7A4E213BEB2AE19 /* DDBlueprints.h */; };
+		94237F339A74596DAE498E8F /* DDHelpers.Build.cs in Sources */ = {isa = PBXBuildFile; fileRef = 879963C4AFFF9FB3F2E24C59 /* DDHelpers.Build.cs */; };
+		6036F047F3F5CD7CF5410357 /* DDHelpers.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C5C72BDCD1982B6E7C08C590 /* DDHelpers.cpp */; };
+		F753852322699CB1D626D263 /* DDModuleWidget.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 84117AB97C119A46960BFEE8 /* DDModuleWidget.cpp */; };
+		D4C3E15AB7DEDC58715F509F /* DDHelpers.h in Sources */ = {isa = PBXBuildFile; fileRef = 6FAA598CA451819FF4C757C0 /* DDHelpers.h */; };
+		1D71F16A6E7EFAEB549D4E5F /* DDModuleWidget.h in Sources */ = {isa = PBXBuildFile; fileRef = 8741FAF8497AF124C0DA49D2 /* DDModuleWidget.h */; };
+		04552919079E5DA27C7EEAD7 /* DDLog.Build.cs in Sources */ = {isa = PBXBuildFile; fileRef = 73A4B3B0A8F5569DC95FEB2F /* DDLog.Build.cs */; };
+		0ABA440B963F1705E70F563A /* DDLog.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4E5DB56BE049858B8E5FC57C /* DDLog.cpp */; };
+		466E24CA3379E6A469F90E4D /* logging.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5A510C3D67E5F0644E78624A /* logging.cpp */; };
+		3FEBBD7FDA5FA1ABF4C7C527 /* DDLog.h in Sources */ = {isa = PBXBuildFile; fileRef = 1A4CD26E28B2D0544E68118F /* DDLog.h */; };
+		3C4724A96E612ECD0CD98B48 /* logging.hpp in Sources */ = {isa = PBXBuildFile; fileRef = BC67CA09576358928CE5221A /* logging.hpp */; };
+		B70DA1448A5FF30C6B213C45 /* DDManager.Build.cs in Sources */ = {isa = PBXBuildFile; fileRef = EC72EAF365654AD25BFA0463 /* DDManager.Build.cs */; };
+		5788557AD532FF43271FB260 /* DDManager.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DCB561F5A941F36605B40CD7 /* DDManager.cpp */; };
+		8FFEBF5B8F7777BD093EEC01 /* DDManager.h in Sources */ = {isa = PBXBuildFile; fileRef = 0979363921F91ECCBF8A17B0 /* DDManager.h */; };
+		D21C620C1C239BB0F89DC54A /* depsReLog.Build.cs in Sources */ = {isa = PBXBuildFile; fileRef = 856F8E44B10C1BA9DF44EECD /* depsReLog.Build.cs */; };
+		EE12633ACA9CFCD458F3C1AC /* depsReLog.tps in Sources */ = {isa = PBXBuildFile; fileRef = 7E4C6DACDF02E7734A7BD6BB /* depsReLog.tps */; };
+		03C9D68495D2FAD74CD7062B /* appveyor.yml in Sources */ = {isa = PBXBuildFile; fileRef = 81941787E67944AE895F0BE9 /* appveyor.yml */; };
+		187602995735E7CD33E4A3FE /* async_bench.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8D58C98427C25CD6017FE93A /* async_bench.cpp */; };
+		9F8FF84BA26A49E934E68863 /* bench.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 372CAA2C94091D3FF0EC4BEF /* bench.cpp */; };
+		D2935EA1DA3AC501617BD750 /* CMakeLists.txt in Sources */ = {isa = PBXBuildFile; fileRef = 2493EAD847D2DB17ECE95F77 /* CMakeLists.txt */; };
+		0857EF298C8875998DC8F9C7 /* formatter-bench.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3D9C2BC99AB9C9A6CF664CFB /* formatter-bench.cpp */; };
+		173041F862AA4AB34408424A /* latency.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7B205DAB71EED66F32E3EFF7 /* latency.cpp */; };
+		DE54A43622A41FA10BF4115C /* meson.build in Sources */ = {isa = PBXBuildFile; fileRef = 477D37E27D46833459E04D7A /* meson.build */; };
+		5C1D34E190DCC8344149190D /* utils.h in Sources */ = {isa = PBXBuildFile; fileRef = 0513909FE8A03F860E0164F4 /* utils.h */; };
+		B7F3F1EC5FBA9EFE062ADA05 /* ide.cmake in Sources */ = {isa = PBXBuildFile; fileRef = 703E112E2BDC1AFD6429DC6A /* ide.cmake */; };
+		B5E44BB8A0C76B5BB8402A9C /* spdlog.pc.in in Sources */ = {isa = PBXBuildFile; fileRef = EBDCD586AB1A07DB398A2FAA /* spdlog.pc.in */; };
+		079451492100302BB5A1298E /* spdlogConfig.cmake.in in Sources */ = {isa = PBXBuildFile; fileRef = 6B3A7550B09C8564A65A17C5 /* spdlogConfig.cmake.in */; };
+		8F115B31E6678F8D1787367A /* spdlogCPack.cmake in Sources */ = {isa = PBXBuildFile; fileRef = 6EE55E3FBE7E4D2F1475424E /* spdlogCPack.cmake */; };
+		BCC81DBA3DFF951ACE0C2A51 /* utils.cmake in Sources */ = {isa = PBXBuildFile; fileRef = 16466B16560BC5CDBCCFD384 /* utils.cmake */; };
+		5C28805536C3268D2E951D09 /* CMakeLists.txt in Sources */ = {isa = PBXBuildFile; fileRef = C061E65CA0F1F291ADE1C564 /* CMakeLists.txt */; };
+		09FC7E78EFDEA8AD7C8B8C59 /* CMakeLists.txt in Sources */ = {isa = PBXBuildFile; fileRef = E376EDB50B0FBF5F0F233A6A /* CMakeLists.txt */; };
+		306F0D9B944A09EDF599B040 /* example.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 811D2AF0647CD58AB91233E0 /* example.cpp */; };
+		1D0FC1AC0F7474E6C2144780 /* meson.build in Sources */ = {isa = PBXBuildFile; fileRef = D00C1832829F6349C5AC34EE /* meson.build */; };
+		E5CFFA934DB0B01E3C2D7D85 /* async.h in Sources */ = {isa = PBXBuildFile; fileRef = 885CDD8024CA7E6CD6A91F57 /* async.h */; };
+		C2E224FA2EC7183BB0A22EAA /* async_logger.h in Sources */ = {isa = PBXBuildFile; fileRef = A7976F52120CAAB5959D0643 /* async_logger.h */; };
+		64A30819AEE91B70DAD3C740 /* async_logger-inl.h in Sources */ = {isa = PBXBuildFile; fileRef = 79E19812632944A38E93A925 /* async_logger-inl.h */; };
+		B9F19181E8F38F25DCE1C8C2 /* common.h in Sources */ = {isa = PBXBuildFile; fileRef = BE6AD634D95DB0C540A38EF1 /* common.h */; };
+		326B09AD657BC8D1FAE257CB /* common-inl.h in Sources */ = {isa = PBXBuildFile; fileRef = C4204213BA8C90D7B2ED6ACC /* common-inl.h */; };
+		AF1A7E4449FFCBA632E83739 /* backtracer.h in Sources */ = {isa = PBXBuildFile; fileRef = 53668BA0F2943CB3976B98AB /* backtracer.h */; };
+		FD8D5F557D9CAA89BC0747E9 /* backtracer-inl.h in Sources */ = {isa = PBXBuildFile; fileRef = 4462EA15C04C1A6420095688 /* backtracer-inl.h */; };
+		5992DD251B0873F337D7A563 /* circular_q.h in Sources */ = {isa = PBXBuildFile; fileRef = 1E653FBC3CA1B75C2BB0C259 /* circular_q.h */; };
+		C17A718BCDA3F14482D3EBB7 /* console_globals.h in Sources */ = {isa = PBXBuildFile; fileRef = 22A58A2A7544027BC127828D /* console_globals.h */; };
+		168DE6E7AE469899F8E4364D /* file_helper.h in Sources */ = {isa = PBXBuildFile; fileRef = 2DFB90465243E89F40E9938D /* file_helper.h */; };
+		547F76F6B33B80A8CF8364A0 /* file_helper-inl.h in Sources */ = {isa = PBXBuildFile; fileRef = 96E72693E561E14B7A889996 /* file_helper-inl.h */; };
+		1D6F965F463612CCE5DFDF26 /* fmt_helper.h in Sources */ = {isa = PBXBuildFile; fileRef = 5599FA88EACBA8B1B0D965EA /* fmt_helper.h */; };
+		485FB47541E2DD4409AB8FAA /* log_msg.h in Sources */ = {isa = PBXBuildFile; fileRef = 3EDC2DEB8AB22DFBCFBBD8B1 /* log_msg.h */; };
+		3C7CC3683CF5EA8D8702FC5B /* log_msg_buffer.h in Sources */ = {isa = PBXBuildFile; fileRef = 0397D3F1DB280000EEEDA5A9 /* log_msg_buffer.h */; };
+		78E6DF467118CF66AA3EED3F /* log_msg_buffer-inl.h in Sources */ = {isa = PBXBuildFile; fileRef = 45E0EB167B853405A9A883F5 /* log_msg_buffer-inl.h */; };
+		D09BF8369FFA552CF959C93E /* log_msg-inl.h in Sources */ = {isa = PBXBuildFile; fileRef = B03852C1D16A674D1B6AF1B9 /* log_msg-inl.h */; };
+		C716804A87D208D063E909F4 /* mpmc_blocking_q.h in Sources */ = {isa = PBXBuildFile; fileRef = 556629B55460B843E49013E3 /* mpmc_blocking_q.h */; };
+		B2432980A782074FD719A126 /* null_mutex.h in Sources */ = {isa = PBXBuildFile; fileRef = 749F05B4FA2BF71A8EDE9B75 /* null_mutex.h */; };
+		5A0348B898F955D3A7B4815D /* os.h in Sources */ = {isa = PBXBuildFile; fileRef = D77A1A74546A23D707C20B72 /* os.h */; };
+		FF4AAB8D3562C537039C9843 /* os-inl.h in Sources */ = {isa = PBXBuildFile; fileRef = A98728E0E1B91D3BC50341B5 /* os-inl.h */; };
+		9EA8E75BE069AD98F7D6B480 /* pattern_formatter.h in Sources */ = {isa = PBXBuildFile; fileRef = C1801347048553E047E85B47 /* pattern_formatter.h */; };
+		031738D4C060AFFC09F63231 /* pattern_formatter-inl.h in Sources */ = {isa = PBXBuildFile; fileRef = 190D9F0946C49BF406CB0967 /* pattern_formatter-inl.h */; };
+		B153EF8178291FB64CA090C7 /* periodic_worker.h in Sources */ = {isa = PBXBuildFile; fileRef = D86B71E06A7D72F04BFBCEB0 /* periodic_worker.h */; };
+		CB19904226176B370DD03517 /* periodic_worker-inl.h in Sources */ = {isa = PBXBuildFile; fileRef = 78541BA0489A3A42581E48C6 /* periodic_worker-inl.h */; };
+		285AD7DBAB587AB5853F18C5 /* registry.h in Sources */ = {isa = PBXBuildFile; fileRef = 91710733B1E3F60DD99EB880 /* registry.h */; };
+		69B397ADAE19EEACD0CA91D2 /* registry-inl.h in Sources */ = {isa = PBXBuildFile; fileRef = 27EABFE4B17FCAD8C354C7DD /* registry-inl.h */; };
+		BE8D3ECB30F6EC14EBBA8554 /* synchronous_factory.h in Sources */ = {isa = PBXBuildFile; fileRef = 411301774FDC4DE7D2FA533F /* synchronous_factory.h */; };
+		E27FBDFD50D0ADC43AFF5399 /* thread_pool.h in Sources */ = {isa = PBXBuildFile; fileRef = CF0CB631B6FBB2E9F6E35DA0 /* thread_pool.h */; };
+		789726E05DBA0389A1571C1D /* thread_pool-inl.h in Sources */ = {isa = PBXBuildFile; fileRef = 19AF848E5203D9D7ECB3F29E /* thread_pool-inl.h */; };
+		57BE95CE207C53C4A588FEDE /* bin_to_hex.h in Sources */ = {isa = PBXBuildFile; fileRef = FC0639D0A958E31A5CEABF46 /* bin_to_hex.h */; };
+		CA57650D1B564F1A4C75E9DA /* chrono.h in Sources */ = {isa = PBXBuildFile; fileRef = D3757786140D04EA34A4D4D7 /* chrono.h */; };
+		02DD042714A76D88C326049E /* color.h in Sources */ = {isa = PBXBuildFile; fileRef = 132C581C2013D35220220A64 /* color.h */; };
+		C10BD84F28771425828D0A3D /* compile.h in Sources */ = {isa = PBXBuildFile; fileRef = 512806A4076017AD71D873E8 /* compile.h */; };
+		B4E7C920D182B7E0D2A06508 /* core.h in Sources */ = {isa = PBXBuildFile; fileRef = CF1E604B12DE1B85211ACBF8 /* core.h */; };
+		00CC9B92BDEDC79A1CD113A3 /* format.h in Sources */ = {isa = PBXBuildFile; fileRef = 38F8D575AC7D6FDF831F9C1E /* format.h */; };
+		0D2E4ABF0A5DF3E898EF9A40 /* format-inl.h in Sources */ = {isa = PBXBuildFile; fileRef = AEF35300D52A6AB1C2FDD5E9 /* format-inl.h */; };
+		B4256FCEF578397473702E1F /* LICENSE.rst in Sources */ = {isa = PBXBuildFile; fileRef = C709FDDED93892ED5C2C6248 /* LICENSE.rst */; };
+		8A1BB0F7AF1936105960BE3D /* locale.h in Sources */ = {isa = PBXBuildFile; fileRef = C2602BAB280024DDE0B0C8DD /* locale.h */; };
+		54F504458DF566E0307C07A2 /* ostream.h in Sources */ = {isa = PBXBuildFile; fileRef = 3CCFEA029A0349D73997B34B /* ostream.h */; };
+		52C3B683FBBF3EDA52D3A2BA /* posix.h in Sources */ = {isa = PBXBuildFile; fileRef = 15F08263FADD0D4559886F58 /* posix.h */; };
+		162242DC66F0A3BC41B8F3C9 /* printf.h in Sources */ = {isa = PBXBuildFile; fileRef = 3EE2E5703E2D4F692D2FEDA9 /* printf.h */; };
+		80E6DC5B8A6EF2C9545E6CD8 /* ranges.h in Sources */ = {isa = PBXBuildFile; fileRef = 7D6173622FE5785CFDB92417 /* ranges.h */; };
+		4CA820F00008A7FE211DA591 /* fmt.h in Sources */ = {isa = PBXBuildFile; fileRef = 3BDFA3BDAB8EF4460DD835B0 /* fmt.h */; };
+		C2E1409E0043436DFF4E8277 /* ostr.h in Sources */ = {isa = PBXBuildFile; fileRef = 5B62C39CE100BCDE60A795CA /* ostr.h */; };
+		CA97FA090D2F9044013DF373 /* formatter.h in Sources */ = {isa = PBXBuildFile; fileRef = EA46E8065231EFE2577F544F /* formatter.h */; };
+		74AA720EB3AB9A4B42AA52B1 /* logger.h in Sources */ = {isa = PBXBuildFile; fileRef = 323A075BB0DD104A8F970DCC /* logger.h */; };
+		B65BFD553DA58C16629FB751 /* logger-inl.h in Sources */ = {isa = PBXBuildFile; fileRef = F88618AC5084C18177624A92 /* logger-inl.h */; };
+		F89D062B39052BE635985C80 /* android_sink.h in Sources */ = {isa = PBXBuildFile; fileRef = 144732D3C52974E0760CF3DC /* android_sink.h */; };
+		B2A596D44444A1EBA929714B /* ansicolor_sink.h in Sources */ = {isa = PBXBuildFile; fileRef = CBE330A4EC94BE4FE3466CFF /* ansicolor_sink.h */; };
+		BAED3947B690ACC7C1C463EC /* ansicolor_sink-inl.h in Sources */ = {isa = PBXBuildFile; fileRef = 67C6904F3385A3E405F24DE8 /* ansicolor_sink-inl.h */; };
+		55FFF87034FE056C38973B1E /* base_sink.h in Sources */ = {isa = PBXBuildFile; fileRef = 96B0819B52AAAB7B4E1EAA14 /* base_sink.h */; };
+		9825ADF0690ED7C79F509411 /* base_sink-inl.h in Sources */ = {isa = PBXBuildFile; fileRef = FAD7837D2378423D5444834F /* base_sink-inl.h */; };
+		F6A7EBA99908003655E35EF2 /* basic_file_sink.h in Sources */ = {isa = PBXBuildFile; fileRef = D29A6909ECE77C38151885EA /* basic_file_sink.h */; };
+		11412C6A032FAA53A25D9B69 /* basic_file_sink-inl.h in Sources */ = {isa = PBXBuildFile; fileRef = 156792A14B28D8629C64E672 /* basic_file_sink-inl.h */; };
+		170A2F26454778AD5AB9745B /* daily_file_sink.h in Sources */ = {isa = PBXBuildFile; fileRef = 4400BA995C64143208A0CFB1 /* daily_file_sink.h */; };
+		BECF76B4E7AD5DDE2200928E /* dist_sink.h in Sources */ = {isa = PBXBuildFile; fileRef = D8DAF10D6BB19818260EC5EC /* dist_sink.h */; };
+		2CE2DBB10353E2773A7D6776 /* dup_filter_sink.h in Sources */ = {isa = PBXBuildFile; fileRef = D1C3C6AD5C9539436E2BC182 /* dup_filter_sink.h */; };
+		7207C65708B68BB00A8A8704 /* msvc_sink.h in Sources */ = {isa = PBXBuildFile; fileRef = D1ABDBCE1E1A545B727B3CA8 /* msvc_sink.h */; };
+		EAEBBC90D4817D0021593EFC /* null_sink.h in Sources */ = {isa = PBXBuildFile; fileRef = 8C8A6F83F2B76C473BC1DBB0 /* null_sink.h */; };
+		BA6A2554D7650FF7CB1E6C1C /* ostream_sink.h in Sources */ = {isa = PBXBuildFile; fileRef = FAFADB880C87E2786DDF4193 /* ostream_sink.h */; };
+		AAD068BB0FF56C290F0BD56A /* ringbuffer_sink.h in Sources */ = {isa = PBXBuildFile; fileRef = 5B2929BB4947316E1D5289F7 /* ringbuffer_sink.h */; };
+		5D262E25AED375574770DF2B /* rotating_file_sink.h in Sources */ = {isa = PBXBuildFile; fileRef = BAB749ACC7FA41C98021BEF5 /* rotating_file_sink.h */; };
+		DCE33AB4DF6343DB2892A907 /* rotating_file_sink-inl.h in Sources */ = {isa = PBXBuildFile; fileRef = FD54E8D5B1430DEF24702CE2 /* rotating_file_sink-inl.h */; };
+		F960272A2E63623C6839C753 /* sink.h in Sources */ = {isa = PBXBuildFile; fileRef = 169B12AD9D737562619177AA /* sink.h */; };
+		5E5BBCDA4599D36BB65756B8 /* sink-inl.h in Sources */ = {isa = PBXBuildFile; fileRef = 341D2D551C51C08D75BC1BF9 /* sink-inl.h */; };
+		3F13EF0147B89868E97D5D42 /* stdout_color_sinks.h in Sources */ = {isa = PBXBuildFile; fileRef = B634DB37B9241353BB2E3BF4 /* stdout_color_sinks.h */; };
+		CDECAC2E61307FA23FC2E0E4 /* stdout_color_sinks-inl.h in Sources */ = {isa = PBXBuildFile; fileRef = 72A83C53F41A4FFB56DA3E81 /* stdout_color_sinks-inl.h */; };
+		3F174131C6EBC510D8FBCA25 /* stdout_sinks.h in Sources */ = {isa = PBXBuildFile; fileRef = 4B51266D2A69938A448DF63B /* stdout_sinks.h */; };
+		37216D46427C53F3AE2BEF4D /* stdout_sinks-inl.h in Sources */ = {isa = PBXBuildFile; fileRef = 417D5A862A78FBF44BFA9CC0 /* stdout_sinks-inl.h */; };
+		CA8C29423346A93D85AD072A /* syslog_sink.h in Sources */ = {isa = PBXBuildFile; fileRef = 3A212CC366DE7546B3343BD8 /* syslog_sink.h */; };
+		528DCAE166127BB22105673A /* systemd_sink.h in Sources */ = {isa = PBXBuildFile; fileRef = C182DD91518CA09D4AFB3208 /* systemd_sink.h */; };
+		00E4F427949D8E565BC2A395 /* wincolor_sink.h in Sources */ = {isa = PBXBuildFile; fileRef = ED159A707DD1E9719238148A /* wincolor_sink.h */; };
+		3DD0246617B088955050F0A5 /* wincolor_sink-inl.h in Sources */ = {isa = PBXBuildFile; fileRef = 7CC7D77231550935BAF201E3 /* wincolor_sink-inl.h */; };
+		7D65D09951FF03DD9CA6F570 /* spdlog.h in Sources */ = {isa = PBXBuildFile; fileRef = 19C78E6FD2FE9FC759742933 /* spdlog.h */; };
+		194392D2BDD3D853116AE192 /* spdlog-inl.h in Sources */ = {isa = PBXBuildFile; fileRef = 327D62B7056B0E4D34677A15 /* spdlog-inl.h */; };
+		7B59452488BF98B1C87C5557 /* tweakme.h in Sources */ = {isa = PBXBuildFile; fileRef = 023E01116704F68C88F19D3D /* tweakme.h */; };
+		DC9F7B35C7B3BC093C9D1EF8 /* version.h in Sources */ = {isa = PBXBuildFile; fileRef = BADE54DC0E43A79D72366D93 /* version.h */; };
+		9F6EC9DC5D7A82733BA7DDA1 /* INSTALL in Sources */ = {isa = PBXBuildFile; fileRef = 1CA69E94CD337DE92F63EB7E /* INSTALL */; };
+		1C8BD25989450E7B631BB6C7 /* LICENSE in Sources */ = {isa = PBXBuildFile; fileRef = FA4A30B312AACD1983453FFA /* LICENSE */; };
+		C0D78021073E097CC3407699 /* meson.build in Sources */ = {isa = PBXBuildFile; fileRef = 05B0A7B050E884D023BE7504 /* meson.build */; };
+		4AB61A7692EBF9A4BEEDC4BE /* meson_options.txt in Sources */ = {isa = PBXBuildFile; fileRef = 51D8D00DCE8967401D7D8235 /* meson_options.txt */; };
+		535EC47963DC353C824BC0D1 /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = A829E9F699623D00F0D69A83 /* README.md */; };
+		B52D6CF4F2FD4D4BCF416532 /* clang_tidy.sh in Sources */ = {isa = PBXBuildFile; fileRef = BC6101B3C19A49BA2341841B /* clang_tidy.sh */; };
+		BA98B7E9099051C7CF697166 /* extract_version.py in Sources */ = {isa = PBXBuildFile; fileRef = 309A645E7458C5ACB067B41C /* extract_version.py */; };
+		D035AFF7EF5A6673A8513959 /* format.sh in Sources */ = {isa = PBXBuildFile; fileRef = 4564423FF09D6352EF9B8227 /* format.sh */; };
+		36EB45CA7CD86B53E49B18D3 /* async.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E059D87403FDBDDF600A180F /* async.cpp */; };
+		1686BC1204622C35B387C103 /* color_sinks.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 149BF7D0E6E675AA4B6F5F96 /* color_sinks.cpp */; };
+		C5EE4FF1DDA2C62CD336B4F6 /* file_sinks.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1C584F826EE31F5898D56067 /* file_sinks.cpp */; };
+		06ECF97A946EC4A626254D15 /* fmt.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 123A5711C19530DEE700B48E /* fmt.cpp */; };
+		97F33B675006FEEF8DE8EBF0 /* spdlog.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A94C9765710DCFF60A396F34 /* spdlog.cpp */; };
+		8C0E9702A5818005386BE3A1 /* stdout_sinks.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 325C5620265D872A4F666774 /* stdout_sinks.cpp */; };
+		B7AECFACB144E425A62204DA /* catch.hpp in Sources */ = {isa = PBXBuildFile; fileRef = 14A6D37AE7851E2B8014B22A /* catch.hpp */; };
+		137BC26AAE290C0898572283 /* catch.license in Sources */ = {isa = PBXBuildFile; fileRef = EED6AC3E23B59B4BF770F7C1 /* catch.license */; };
+		FECA6CD931BD835D8307DB42 /* CMakeLists.txt in Sources */ = {isa = PBXBuildFile; fileRef = 6EFC4A0C68E5B83E68F53215 /* CMakeLists.txt */; };
+		113E56E2D70694A2FCA59935 /* includes.h in Sources */ = {isa = PBXBuildFile; fileRef = 8279777D16FC41BD84508C11 /* includes.h */; };
+		D9DF08CA796633A28401586F /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D22A3192C37F86493C76BCA9 /* main.cpp */; };
+		3E1E35FB2F393CC0B24509F7 /* meson.build in Sources */ = {isa = PBXBuildFile; fileRef = FEC9299571F6B1812007AAEC /* meson.build */; };
+		CAAFFA05C942D462235F8C5A /* test_async.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3038734AC498BD8D203994F9 /* test_async.cpp */; };
+		56F1D745C53B88367349307F /* test_backtrace.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3F37F66F70A6D49E3CCE6439 /* test_backtrace.cpp */; };
+		8366BC884A1DCB911B00AFD8 /* test_create_dir.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6B8E9CE8D656E6E707F40A8D /* test_create_dir.cpp */; };
+		A14E1C7A65F5BD878C9DC25F /* test_daily_logger.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7EFFEC567E9F643F871D03E1 /* test_daily_logger.cpp */; };
+		09ECC7E6E87D328F5B2EE7FB /* test_dup_filter.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 00502C2643274CCDCC3D69D7 /* test_dup_filter.cpp */; };
+		6A8F69678FCA06834A3A7178 /* test_errors.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2DD69E0E6B33035018F0562D /* test_errors.cpp */; };
+		733EFC5FD13615CB82F07B58 /* test_file_helper.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 13CAFF902863B0C5DFB3F86C /* test_file_helper.cpp */; };
+		883D61983A18BE79393BF451 /* test_file_logging.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CEA6B11425A5F53C5B46FBA1 /* test_file_logging.cpp */; };
+		347228B43F904DC04590D693 /* test_fmt_helper.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D47D916A31021ED7D6ADC281 /* test_fmt_helper.cpp */; };
+		B19CA03ABDBB104242C064C8 /* test_macros.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F00A39A8EE340C3DCF1E40A8 /* test_macros.cpp */; };
+		148B0B582723CB86AFA602A3 /* test_misc.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F01302897F94511318C87927 /* test_misc.cpp */; };
+		C875E9A2A185B2935CF82531 /* test_mpmc_q.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B0B81A1FF5DD18490795B8DA /* test_mpmc_q.cpp */; };
+		3182BD3BCD2C8F4B12E390B1 /* test_pattern_formatter.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3928E52AF46E47F8EDD1D8C7 /* test_pattern_formatter.cpp */; };
+		79311E3BB0301F32BD0F711E /* test_registry.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C777C62F68DA1FCC2768E6CC /* test_registry.cpp */; };
+		F7EE55994EC0EC5FA9F6C19B /* test_sink.h in Sources */ = {isa = PBXBuildFile; fileRef = 0D539BE1C45DF429B7C6637D /* test_sink.h */; };
+		A8178F13B10B9F114B5243C2 /* test_stdout_api.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DB86E4FD231174D0B52B2214 /* test_stdout_api.cpp */; };
+		3F3D08CA73BC14318AD7F036 /* test_systemd.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 30D9AD9D56B04FBB10D9063E /* test_systemd.cpp */; };
+		79F706A65292C77CF57AD374 /* utils.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 03D59D8F3D12370395AECC49 /* utils.cpp */; };
+		63D67A05DC66046637C9517C /* utils.h in Sources */ = {isa = PBXBuildFile; fileRef = B56DDEF8107440B505399A81 /* utils.h */; };
+		78D83ACCA35731DE09AAC5F0 /* highCastlePD.uplugin in Sources */ = {isa = PBXBuildFile; fileRef = DEF8BC0563F98319A20A2AF0 /* highCastlePD.uplugin */; };
+		3E13CF977B45FAC5512A05D9 /* Icon128.png in Sources */ = {isa = PBXBuildFile; fileRef = B80A984C295A173522C21D8E /* Icon128.png */; };
+		12C07EFDA202A9CA2ABC427B /* highCastlePD.Build.cs in Sources */ = {isa = PBXBuildFile; fileRef = 18C1A08F766D3C398420D9CF /* highCastlePD.Build.cs */; };
+		333EF3206E17442A3CF8F21B /* git-describe.h in Sources */ = {isa = PBXBuildFile; fileRef = E806C434208651F92B63E04E /* git-describe.h */; };
+		D3B13F97FC60FCF1E7AECA63 /* highCastlePD.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0F885C1378183F1FCE84A66F /* highCastlePD.cpp */; };
+		A90818FDCFDFA4D05EA44CBD /* highCastlePD.h in Sources */ = {isa = PBXBuildFile; fileRef = D7AC2DDBFB0034393C602498 /* highCastlePD.h */; };
+		2A3D801224C07F4F0ACFEDF3 /* depshighCastlePD.Build.cs in Sources */ = {isa = PBXBuildFile; fileRef = 47FF22070AFA056B3B9F3CCB /* depshighCastlePD.Build.cs */; };
+		EA6323CD4F6C3349E480D392 /* depshighCastlePD.tps in Sources */ = {isa = PBXBuildFile; fileRef = 5F91AB9D24FDB208BF3993FC /* depshighCastlePD.tps */; };
+		B598FEA846B56A21864682FE /* ProjectionsDev.uproject in Sources */ = {isa = PBXBuildFile; fileRef = 10E4841AB4578BB4EF66F8B7 /* ProjectionsDev.uproject */; };
+		91F6DDE87770C5A225363F8F /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = 9F1A6E3CBDFC1C4D72A426E5 /* README.md */; };
+		102446793638E1E773194BBB /* ProjectionsDev.Target.cs in Sources */ = {isa = PBXBuildFile; fileRef = 940AC694D607EE88F16DFF10 /* ProjectionsDev.Target.cs */; };
+		DE2D2F415BB95D8B01B527C1 /* MyClass.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9CB1FF9D9BA40FC72C8FA878 /* MyClass.cpp */; };
+		4E67463DEC340CB1CF26EF22 /* MyClass.h in Sources */ = {isa = PBXBuildFile; fileRef = 3CF1ED2A234791A96AEA0073 /* MyClass.h */; };
+		FE156C1A2ACCD04E85B7F2F4 /* ProjectionsDev.Build.cs in Sources */ = {isa = PBXBuildFile; fileRef = 731F9FCCA976F175C2DD60AA /* ProjectionsDev.Build.cs */; };
+		B7E5A4E4FEFE0D6466D23FD6 /* ProjectionsDev.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C7F2870256A09C85FEF9B703 /* ProjectionsDev.cpp */; };
+		A8C4FFF3F88AB020B5C26244 /* ProjectionsDev.h in Sources */ = {isa = PBXBuildFile; fileRef = 28EC5087AA8E8DA0E0C805B7 /* ProjectionsDev.h */; };
+		39A799C779365B4E9F469821 /* ProjectionsDevEditor.Target.cs in Sources */ = {isa = PBXBuildFile; fileRef = 6EF1EB4E659A8BF798C986A9 /* ProjectionsDevEditor.Target.cs */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		7451D3F36FE827DF64027CFE /* AndroidEngine.ini */ = {isa = PBXFileReference; explicitFileType = file.text; name = "AndroidEngine.ini"; path = "../../Config/Android/AndroidEngine.ini"; sourceTree = SOURCE_ROOT; };
+		5873D72E80F5FC38B15BAE4B /* DefaultEditor.ini */ = {isa = PBXFileReference; explicitFileType = file.text; name = "DefaultEditor.ini"; path = "../../Config/DefaultEditor.ini"; sourceTree = SOURCE_ROOT; };
+		4E6FC01DBECF6EAFE3EBE34A /* DefaultEngine.ini */ = {isa = PBXFileReference; explicitFileType = file.text; name = "DefaultEngine.ini"; path = "../../Config/DefaultEngine.ini"; sourceTree = SOURCE_ROOT; };
+		CEDBC2E8B849B360A801E011 /* DefaultGame.ini */ = {isa = PBXFileReference; explicitFileType = file.text; name = "DefaultGame.ini"; path = "../../Config/DefaultGame.ini"; sourceTree = SOURCE_ROOT; };
+		6BB943E2C40AE476452D4EE3 /* DefaultInput.ini */ = {isa = PBXFileReference; explicitFileType = file.text; name = "DefaultInput.ini"; path = "../../Config/DefaultInput.ini"; sourceTree = SOURCE_ROOT; };
+		07CD09E84C53B2B0707A6D73 /* IOSEngine.ini */ = {isa = PBXFileReference; explicitFileType = file.text; name = "IOSEngine.ini"; path = "../../Config/IOS/IOSEngine.ini"; sourceTree = SOURCE_ROOT; };
+		E60406A3EF4238DE7A6CECA2 /* LinuxEngine.ini */ = {isa = PBXFileReference; explicitFileType = file.text; name = "LinuxEngine.ini"; path = "../../Config/Linux/LinuxEngine.ini"; sourceTree = SOURCE_ROOT; };
+		626E002216CD5D0D39A20148 /* MacEngine.ini */ = {isa = PBXFileReference; explicitFileType = file.text; name = "MacEngine.ini"; path = "../../Config/Mac/MacEngine.ini"; sourceTree = SOURCE_ROOT; };
+		DB6DB93C6B0703BD9DDA4180 /* PS4Engine.ini */ = {isa = PBXFileReference; explicitFileType = file.text; name = "PS4Engine.ini"; path = "../../Config/PS4/PS4Engine.ini"; sourceTree = SOURCE_ROOT; };
+		0A5F49D4309D28FCF03A47A9 /* SwitchEngine.ini */ = {isa = PBXFileReference; explicitFileType = file.text; name = "SwitchEngine.ini"; path = "../../Config/Switch/SwitchEngine.ini"; sourceTree = SOURCE_ROOT; };
+		C64BBB25FD428890A978320C /* WindowsEngine.ini */ = {isa = PBXFileReference; explicitFileType = file.text; name = "WindowsEngine.ini"; path = "../../Config/Windows/WindowsEngine.ini"; sourceTree = SOURCE_ROOT; };
+		3C369DF99F5272C9721C0DE5 /* XboxOneEngine.ini */ = {isa = PBXFileReference; explicitFileType = file.text; name = "XboxOneEngine.ini"; path = "../../Config/XboxOne/XboxOneEngine.ini"; sourceTree = SOURCE_ROOT; };
+		75DB2B09D8F10E56E8A42826 /* DDTools.uplugin */ = {isa = PBXFileReference; explicitFileType = file.text; name = "DDTools.uplugin"; path = "../../Plugins/DDTools/DDTools.uplugin"; sourceTree = SOURCE_ROOT; };
+		DFE8B3FB875028E32C1E8EFB /* Icon128.png */ = {isa = PBXFileReference; explicitFileType = image.png; name = "Icon128.png"; path = "../../Plugins/DDTools/Resources/Icon128.png"; sourceTree = SOURCE_ROOT; };
+		3BF83D9298F81B40C18AB2C0 /* DDBase.Build.cs */ = {isa = PBXFileReference; explicitFileType = file.text; name = "DDBase.Build.cs"; path = "../../Plugins/DDTools/Source/DDBase/DDBase.Build.cs"; sourceTree = SOURCE_ROOT; };
+		259225FEDDB46D8E2537CE5F /* DDBase.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; name = "DDBase.cpp"; path = "../../Plugins/DDTools/Source/DDBase/Private/DDBase.cpp"; sourceTree = SOURCE_ROOT; };
+		1010C65B2AEA6D3162516D05 /* DDBase.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; name = "DDBase.h"; path = "../../Plugins/DDTools/Source/DDBase/Public/DDBase.h"; sourceTree = SOURCE_ROOT; };
+		63C4896EDF33839AD0D3219B /* DDBlueprints.Build.cs */ = {isa = PBXFileReference; explicitFileType = file.text; name = "DDBlueprints.Build.cs"; path = "../../Plugins/DDTools/Source/DDBlueprints/DDBlueprints.Build.cs"; sourceTree = SOURCE_ROOT; };
+		6C453085C9AE573604CA0968 /* DDBlueprintLibrary.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; name = "DDBlueprintLibrary.cpp"; path = "../../Plugins/DDTools/Source/DDBlueprints/Private/DDBlueprintLibrary.cpp"; sourceTree = SOURCE_ROOT; };
+		7F34C103C1487858D5B50299 /* DDBlueprints.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; name = "DDBlueprints.cpp"; path = "../../Plugins/DDTools/Source/DDBlueprints/Private/DDBlueprints.cpp"; sourceTree = SOURCE_ROOT; };
+		54A7C546872BE4FD22940595 /* DDBlueprintLibrary.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; name = "DDBlueprintLibrary.h"; path = "../../Plugins/DDTools/Source/DDBlueprints/Public/DDBlueprintLibrary.h"; sourceTree = SOURCE_ROOT; };
+		1E604704D7A4E213BEB2AE19 /* DDBlueprints.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; name = "DDBlueprints.h"; path = "../../Plugins/DDTools/Source/DDBlueprints/Public/DDBlueprints.h"; sourceTree = SOURCE_ROOT; };
+		879963C4AFFF9FB3F2E24C59 /* DDHelpers.Build.cs */ = {isa = PBXFileReference; explicitFileType = file.text; name = "DDHelpers.Build.cs"; path = "../../Plugins/DDTools/Source/DDHelpers/DDHelpers.Build.cs"; sourceTree = SOURCE_ROOT; };
+		C5C72BDCD1982B6E7C08C590 /* DDHelpers.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; name = "DDHelpers.cpp"; path = "../../Plugins/DDTools/Source/DDHelpers/Private/DDHelpers.cpp"; sourceTree = SOURCE_ROOT; };
+		84117AB97C119A46960BFEE8 /* DDModuleWidget.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; name = "DDModuleWidget.cpp"; path = "../../Plugins/DDTools/Source/DDHelpers/Private/DDModuleWidget.cpp"; sourceTree = SOURCE_ROOT; };
+		6FAA598CA451819FF4C757C0 /* DDHelpers.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; name = "DDHelpers.h"; path = "../../Plugins/DDTools/Source/DDHelpers/Public/DDHelpers.h"; sourceTree = SOURCE_ROOT; };
+		8741FAF8497AF124C0DA49D2 /* DDModuleWidget.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; name = "DDModuleWidget.h"; path = "../../Plugins/DDTools/Source/DDHelpers/Public/DDModuleWidget.h"; sourceTree = SOURCE_ROOT; };
+		73A4B3B0A8F5569DC95FEB2F /* DDLog.Build.cs */ = {isa = PBXFileReference; explicitFileType = file.text; name = "DDLog.Build.cs"; path = "../../Plugins/DDTools/Source/DDLog/DDLog.Build.cs"; sourceTree = SOURCE_ROOT; };
+		4E5DB56BE049858B8E5FC57C /* DDLog.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; name = "DDLog.cpp"; path = "../../Plugins/DDTools/Source/DDLog/Private/DDLog.cpp"; sourceTree = SOURCE_ROOT; };
+		5A510C3D67E5F0644E78624A /* logging.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; name = "logging.cpp"; path = "../../Plugins/DDTools/Source/DDLog/Private/logging.cpp"; sourceTree = SOURCE_ROOT; };
+		1A4CD26E28B2D0544E68118F /* DDLog.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; name = "DDLog.h"; path = "../../Plugins/DDTools/Source/DDLog/Public/DDLog.h"; sourceTree = SOURCE_ROOT; };
+		BC67CA09576358928CE5221A /* logging.hpp */ = {isa = PBXFileReference; explicitFileType = file.text; name = "logging.hpp"; path = "../../Plugins/DDTools/Source/DDLog/Public/logging.hpp"; sourceTree = SOURCE_ROOT; };
+		EC72EAF365654AD25BFA0463 /* DDManager.Build.cs */ = {isa = PBXFileReference; explicitFileType = file.text; name = "DDManager.Build.cs"; path = "../../Plugins/DDTools/Source/DDManager/DDManager.Build.cs"; sourceTree = SOURCE_ROOT; };
+		DCB561F5A941F36605B40CD7 /* DDManager.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; name = "DDManager.cpp"; path = "../../Plugins/DDTools/Source/DDManager/Private/DDManager.cpp"; sourceTree = SOURCE_ROOT; };
+		0979363921F91ECCBF8A17B0 /* DDManager.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; name = "DDManager.h"; path = "../../Plugins/DDTools/Source/DDManager/Public/DDManager.h"; sourceTree = SOURCE_ROOT; };
+		856F8E44B10C1BA9DF44EECD /* depsReLog.Build.cs */ = {isa = PBXFileReference; explicitFileType = file.text; name = "depsReLog.Build.cs"; path = "../../Plugins/DDTools/Source/ThirdParty/depsReLog/depsReLog.Build.cs"; sourceTree = SOURCE_ROOT; };
+		7E4C6DACDF02E7734A7BD6BB /* depsReLog.tps */ = {isa = PBXFileReference; explicitFileType = file.text; name = "depsReLog.tps"; path = "../../Plugins/DDTools/Source/ThirdParty/depsReLog/depsReLog.tps"; sourceTree = SOURCE_ROOT; };
+		81941787E67944AE895F0BE9 /* appveyor.yml */ = {isa = PBXFileReference; explicitFileType = file.text; name = "appveyor.yml"; path = "../../Plugins/DDTools/Source/ThirdParty/depsReLog/spdlog/appveyor.yml"; sourceTree = SOURCE_ROOT; };
+		8D58C98427C25CD6017FE93A /* async_bench.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; name = "async_bench.cpp"; path = "../../Plugins/DDTools/Source/ThirdParty/depsReLog/spdlog/bench/async_bench.cpp"; sourceTree = SOURCE_ROOT; };
+		372CAA2C94091D3FF0EC4BEF /* bench.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; name = "bench.cpp"; path = "../../Plugins/DDTools/Source/ThirdParty/depsReLog/spdlog/bench/bench.cpp"; sourceTree = SOURCE_ROOT; };
+		2493EAD847D2DB17ECE95F77 /* CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = file.text; name = "CMakeLists.txt"; path = "../../Plugins/DDTools/Source/ThirdParty/depsReLog/spdlog/bench/CMakeLists.txt"; sourceTree = SOURCE_ROOT; };
+		3D9C2BC99AB9C9A6CF664CFB /* formatter-bench.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; name = "formatter-bench.cpp"; path = "../../Plugins/DDTools/Source/ThirdParty/depsReLog/spdlog/bench/formatter-bench.cpp"; sourceTree = SOURCE_ROOT; };
+		7B205DAB71EED66F32E3EFF7 /* latency.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; name = "latency.cpp"; path = "../../Plugins/DDTools/Source/ThirdParty/depsReLog/spdlog/bench/latency.cpp"; sourceTree = SOURCE_ROOT; };
+		477D37E27D46833459E04D7A /* meson.build */ = {isa = PBXFileReference; explicitFileType = file.text; name = "meson.build"; path = "../../Plugins/DDTools/Source/ThirdParty/depsReLog/spdlog/bench/meson.build"; sourceTree = SOURCE_ROOT; };
+		0513909FE8A03F860E0164F4 /* utils.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; name = "utils.h"; path = "../../Plugins/DDTools/Source/ThirdParty/depsReLog/spdlog/bench/utils.h"; sourceTree = SOURCE_ROOT; };
+		703E112E2BDC1AFD6429DC6A /* ide.cmake */ = {isa = PBXFileReference; explicitFileType = file.text; name = "ide.cmake"; path = "../../Plugins/DDTools/Source/ThirdParty/depsReLog/spdlog/cmake/ide.cmake"; sourceTree = SOURCE_ROOT; };
+		EBDCD586AB1A07DB398A2FAA /* spdlog.pc.in */ = {isa = PBXFileReference; explicitFileType = file.text; name = "spdlog.pc.in"; path = "../../Plugins/DDTools/Source/ThirdParty/depsReLog/spdlog/cmake/spdlog.pc.in"; sourceTree = SOURCE_ROOT; };
+		6B3A7550B09C8564A65A17C5 /* spdlogConfig.cmake.in */ = {isa = PBXFileReference; explicitFileType = file.text; name = "spdlogConfig.cmake.in"; path = "../../Plugins/DDTools/Source/ThirdParty/depsReLog/spdlog/cmake/spdlogConfig.cmake.in"; sourceTree = SOURCE_ROOT; };
+		6EE55E3FBE7E4D2F1475424E /* spdlogCPack.cmake */ = {isa = PBXFileReference; explicitFileType = file.text; name = "spdlogCPack.cmake"; path = "../../Plugins/DDTools/Source/ThirdParty/depsReLog/spdlog/cmake/spdlogCPack.cmake"; sourceTree = SOURCE_ROOT; };
+		16466B16560BC5CDBCCFD384 /* utils.cmake */ = {isa = PBXFileReference; explicitFileType = file.text; name = "utils.cmake"; path = "../../Plugins/DDTools/Source/ThirdParty/depsReLog/spdlog/cmake/utils.cmake"; sourceTree = SOURCE_ROOT; };
+		C061E65CA0F1F291ADE1C564 /* CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = file.text; name = "CMakeLists.txt"; path = "../../Plugins/DDTools/Source/ThirdParty/depsReLog/spdlog/CMakeLists.txt"; sourceTree = SOURCE_ROOT; };
+		E376EDB50B0FBF5F0F233A6A /* CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = file.text; name = "CMakeLists.txt"; path = "../../Plugins/DDTools/Source/ThirdParty/depsReLog/spdlog/example/CMakeLists.txt"; sourceTree = SOURCE_ROOT; };
+		811D2AF0647CD58AB91233E0 /* example.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; name = "example.cpp"; path = "../../Plugins/DDTools/Source/ThirdParty/depsReLog/spdlog/example/example.cpp"; sourceTree = SOURCE_ROOT; };
+		D00C1832829F6349C5AC34EE /* meson.build */ = {isa = PBXFileReference; explicitFileType = file.text; name = "meson.build"; path = "../../Plugins/DDTools/Source/ThirdParty/depsReLog/spdlog/example/meson.build"; sourceTree = SOURCE_ROOT; };
+		885CDD8024CA7E6CD6A91F57 /* async.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; name = "async.h"; path = "../../Plugins/DDTools/Source/ThirdParty/depsReLog/spdlog/include/spdlog/async.h"; sourceTree = SOURCE_ROOT; };
+		A7976F52120CAAB5959D0643 /* async_logger.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; name = "async_logger.h"; path = "../../Plugins/DDTools/Source/ThirdParty/depsReLog/spdlog/include/spdlog/async_logger.h"; sourceTree = SOURCE_ROOT; };
+		79E19812632944A38E93A925 /* async_logger-inl.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; name = "async_logger-inl.h"; path = "../../Plugins/DDTools/Source/ThirdParty/depsReLog/spdlog/include/spdlog/async_logger-inl.h"; sourceTree = SOURCE_ROOT; };
+		BE6AD634D95DB0C540A38EF1 /* common.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; name = "common.h"; path = "../../Plugins/DDTools/Source/ThirdParty/depsReLog/spdlog/include/spdlog/common.h"; sourceTree = SOURCE_ROOT; };
+		C4204213BA8C90D7B2ED6ACC /* common-inl.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; name = "common-inl.h"; path = "../../Plugins/DDTools/Source/ThirdParty/depsReLog/spdlog/include/spdlog/common-inl.h"; sourceTree = SOURCE_ROOT; };
+		53668BA0F2943CB3976B98AB /* backtracer.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; name = "backtracer.h"; path = "../../Plugins/DDTools/Source/ThirdParty/depsReLog/spdlog/include/spdlog/details/backtracer.h"; sourceTree = SOURCE_ROOT; };
+		4462EA15C04C1A6420095688 /* backtracer-inl.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; name = "backtracer-inl.h"; path = "../../Plugins/DDTools/Source/ThirdParty/depsReLog/spdlog/include/spdlog/details/backtracer-inl.h"; sourceTree = SOURCE_ROOT; };
+		1E653FBC3CA1B75C2BB0C259 /* circular_q.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; name = "circular_q.h"; path = "../../Plugins/DDTools/Source/ThirdParty/depsReLog/spdlog/include/spdlog/details/circular_q.h"; sourceTree = SOURCE_ROOT; };
+		22A58A2A7544027BC127828D /* console_globals.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; name = "console_globals.h"; path = "../../Plugins/DDTools/Source/ThirdParty/depsReLog/spdlog/include/spdlog/details/console_globals.h"; sourceTree = SOURCE_ROOT; };
+		2DFB90465243E89F40E9938D /* file_helper.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; name = "file_helper.h"; path = "../../Plugins/DDTools/Source/ThirdParty/depsReLog/spdlog/include/spdlog/details/file_helper.h"; sourceTree = SOURCE_ROOT; };
+		96E72693E561E14B7A889996 /* file_helper-inl.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; name = "file_helper-inl.h"; path = "../../Plugins/DDTools/Source/ThirdParty/depsReLog/spdlog/include/spdlog/details/file_helper-inl.h"; sourceTree = SOURCE_ROOT; };
+		5599FA88EACBA8B1B0D965EA /* fmt_helper.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; name = "fmt_helper.h"; path = "../../Plugins/DDTools/Source/ThirdParty/depsReLog/spdlog/include/spdlog/details/fmt_helper.h"; sourceTree = SOURCE_ROOT; };
+		3EDC2DEB8AB22DFBCFBBD8B1 /* log_msg.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; name = "log_msg.h"; path = "../../Plugins/DDTools/Source/ThirdParty/depsReLog/spdlog/include/spdlog/details/log_msg.h"; sourceTree = SOURCE_ROOT; };
+		0397D3F1DB280000EEEDA5A9 /* log_msg_buffer.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; name = "log_msg_buffer.h"; path = "../../Plugins/DDTools/Source/ThirdParty/depsReLog/spdlog/include/spdlog/details/log_msg_buffer.h"; sourceTree = SOURCE_ROOT; };
+		45E0EB167B853405A9A883F5 /* log_msg_buffer-inl.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; name = "log_msg_buffer-inl.h"; path = "../../Plugins/DDTools/Source/ThirdParty/depsReLog/spdlog/include/spdlog/details/log_msg_buffer-inl.h"; sourceTree = SOURCE_ROOT; };
+		B03852C1D16A674D1B6AF1B9 /* log_msg-inl.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; name = "log_msg-inl.h"; path = "../../Plugins/DDTools/Source/ThirdParty/depsReLog/spdlog/include/spdlog/details/log_msg-inl.h"; sourceTree = SOURCE_ROOT; };
+		556629B55460B843E49013E3 /* mpmc_blocking_q.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; name = "mpmc_blocking_q.h"; path = "../../Plugins/DDTools/Source/ThirdParty/depsReLog/spdlog/include/spdlog/details/mpmc_blocking_q.h"; sourceTree = SOURCE_ROOT; };
+		749F05B4FA2BF71A8EDE9B75 /* null_mutex.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; name = "null_mutex.h"; path = "../../Plugins/DDTools/Source/ThirdParty/depsReLog/spdlog/include/spdlog/details/null_mutex.h"; sourceTree = SOURCE_ROOT; };
+		D77A1A74546A23D707C20B72 /* os.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; name = "os.h"; path = "../../Plugins/DDTools/Source/ThirdParty/depsReLog/spdlog/include/spdlog/details/os.h"; sourceTree = SOURCE_ROOT; };
+		A98728E0E1B91D3BC50341B5 /* os-inl.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; name = "os-inl.h"; path = "../../Plugins/DDTools/Source/ThirdParty/depsReLog/spdlog/include/spdlog/details/os-inl.h"; sourceTree = SOURCE_ROOT; };
+		C1801347048553E047E85B47 /* pattern_formatter.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; name = "pattern_formatter.h"; path = "../../Plugins/DDTools/Source/ThirdParty/depsReLog/spdlog/include/spdlog/details/pattern_formatter.h"; sourceTree = SOURCE_ROOT; };
+		190D9F0946C49BF406CB0967 /* pattern_formatter-inl.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; name = "pattern_formatter-inl.h"; path = "../../Plugins/DDTools/Source/ThirdParty/depsReLog/spdlog/include/spdlog/details/pattern_formatter-inl.h"; sourceTree = SOURCE_ROOT; };
+		D86B71E06A7D72F04BFBCEB0 /* periodic_worker.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; name = "periodic_worker.h"; path = "../../Plugins/DDTools/Source/ThirdParty/depsReLog/spdlog/include/spdlog/details/periodic_worker.h"; sourceTree = SOURCE_ROOT; };
+		78541BA0489A3A42581E48C6 /* periodic_worker-inl.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; name = "periodic_worker-inl.h"; path = "../../Plugins/DDTools/Source/ThirdParty/depsReLog/spdlog/include/spdlog/details/periodic_worker-inl.h"; sourceTree = SOURCE_ROOT; };
+		91710733B1E3F60DD99EB880 /* registry.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; name = "registry.h"; path = "../../Plugins/DDTools/Source/ThirdParty/depsReLog/spdlog/include/spdlog/details/registry.h"; sourceTree = SOURCE_ROOT; };
+		27EABFE4B17FCAD8C354C7DD /* registry-inl.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; name = "registry-inl.h"; path = "../../Plugins/DDTools/Source/ThirdParty/depsReLog/spdlog/include/spdlog/details/registry-inl.h"; sourceTree = SOURCE_ROOT; };
+		411301774FDC4DE7D2FA533F /* synchronous_factory.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; name = "synchronous_factory.h"; path = "../../Plugins/DDTools/Source/ThirdParty/depsReLog/spdlog/include/spdlog/details/synchronous_factory.h"; sourceTree = SOURCE_ROOT; };
+		CF0CB631B6FBB2E9F6E35DA0 /* thread_pool.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; name = "thread_pool.h"; path = "../../Plugins/DDTools/Source/ThirdParty/depsReLog/spdlog/include/spdlog/details/thread_pool.h"; sourceTree = SOURCE_ROOT; };
+		19AF848E5203D9D7ECB3F29E /* thread_pool-inl.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; name = "thread_pool-inl.h"; path = "../../Plugins/DDTools/Source/ThirdParty/depsReLog/spdlog/include/spdlog/details/thread_pool-inl.h"; sourceTree = SOURCE_ROOT; };
+		FC0639D0A958E31A5CEABF46 /* bin_to_hex.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; name = "bin_to_hex.h"; path = "../../Plugins/DDTools/Source/ThirdParty/depsReLog/spdlog/include/spdlog/fmt/bin_to_hex.h"; sourceTree = SOURCE_ROOT; };
+		D3757786140D04EA34A4D4D7 /* chrono.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; name = "chrono.h"; path = "../../Plugins/DDTools/Source/ThirdParty/depsReLog/spdlog/include/spdlog/fmt/bundled/chrono.h"; sourceTree = SOURCE_ROOT; };
+		132C581C2013D35220220A64 /* color.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; name = "color.h"; path = "../../Plugins/DDTools/Source/ThirdParty/depsReLog/spdlog/include/spdlog/fmt/bundled/color.h"; sourceTree = SOURCE_ROOT; };
+		512806A4076017AD71D873E8 /* compile.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; name = "compile.h"; path = "../../Plugins/DDTools/Source/ThirdParty/depsReLog/spdlog/include/spdlog/fmt/bundled/compile.h"; sourceTree = SOURCE_ROOT; };
+		CF1E604B12DE1B85211ACBF8 /* core.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; name = "core.h"; path = "../../Plugins/DDTools/Source/ThirdParty/depsReLog/spdlog/include/spdlog/fmt/bundled/core.h"; sourceTree = SOURCE_ROOT; };
+		38F8D575AC7D6FDF831F9C1E /* format.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; name = "format.h"; path = "../../Plugins/DDTools/Source/ThirdParty/depsReLog/spdlog/include/spdlog/fmt/bundled/format.h"; sourceTree = SOURCE_ROOT; };
+		AEF35300D52A6AB1C2FDD5E9 /* format-inl.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; name = "format-inl.h"; path = "../../Plugins/DDTools/Source/ThirdParty/depsReLog/spdlog/include/spdlog/fmt/bundled/format-inl.h"; sourceTree = SOURCE_ROOT; };
+		C709FDDED93892ED5C2C6248 /* LICENSE.rst */ = {isa = PBXFileReference; explicitFileType = file.text; name = "LICENSE.rst"; path = "../../Plugins/DDTools/Source/ThirdParty/depsReLog/spdlog/include/spdlog/fmt/bundled/LICENSE.rst"; sourceTree = SOURCE_ROOT; };
+		C2602BAB280024DDE0B0C8DD /* locale.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; name = "locale.h"; path = "../../Plugins/DDTools/Source/ThirdParty/depsReLog/spdlog/include/spdlog/fmt/bundled/locale.h"; sourceTree = SOURCE_ROOT; };
+		3CCFEA029A0349D73997B34B /* ostream.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; name = "ostream.h"; path = "../../Plugins/DDTools/Source/ThirdParty/depsReLog/spdlog/include/spdlog/fmt/bundled/ostream.h"; sourceTree = SOURCE_ROOT; };
+		15F08263FADD0D4559886F58 /* posix.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; name = "posix.h"; path = "../../Plugins/DDTools/Source/ThirdParty/depsReLog/spdlog/include/spdlog/fmt/bundled/posix.h"; sourceTree = SOURCE_ROOT; };
+		3EE2E5703E2D4F692D2FEDA9 /* printf.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; name = "printf.h"; path = "../../Plugins/DDTools/Source/ThirdParty/depsReLog/spdlog/include/spdlog/fmt/bundled/printf.h"; sourceTree = SOURCE_ROOT; };
+		7D6173622FE5785CFDB92417 /* ranges.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; name = "ranges.h"; path = "../../Plugins/DDTools/Source/ThirdParty/depsReLog/spdlog/include/spdlog/fmt/bundled/ranges.h"; sourceTree = SOURCE_ROOT; };
+		3BDFA3BDAB8EF4460DD835B0 /* fmt.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; name = "fmt.h"; path = "../../Plugins/DDTools/Source/ThirdParty/depsReLog/spdlog/include/spdlog/fmt/fmt.h"; sourceTree = SOURCE_ROOT; };
+		5B62C39CE100BCDE60A795CA /* ostr.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; name = "ostr.h"; path = "../../Plugins/DDTools/Source/ThirdParty/depsReLog/spdlog/include/spdlog/fmt/ostr.h"; sourceTree = SOURCE_ROOT; };
+		EA46E8065231EFE2577F544F /* formatter.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; name = "formatter.h"; path = "../../Plugins/DDTools/Source/ThirdParty/depsReLog/spdlog/include/spdlog/formatter.h"; sourceTree = SOURCE_ROOT; };
+		323A075BB0DD104A8F970DCC /* logger.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; name = "logger.h"; path = "../../Plugins/DDTools/Source/ThirdParty/depsReLog/spdlog/include/spdlog/logger.h"; sourceTree = SOURCE_ROOT; };
+		F88618AC5084C18177624A92 /* logger-inl.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; name = "logger-inl.h"; path = "../../Plugins/DDTools/Source/ThirdParty/depsReLog/spdlog/include/spdlog/logger-inl.h"; sourceTree = SOURCE_ROOT; };
+		144732D3C52974E0760CF3DC /* android_sink.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; name = "android_sink.h"; path = "../../Plugins/DDTools/Source/ThirdParty/depsReLog/spdlog/include/spdlog/sinks/android_sink.h"; sourceTree = SOURCE_ROOT; };
+		CBE330A4EC94BE4FE3466CFF /* ansicolor_sink.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; name = "ansicolor_sink.h"; path = "../../Plugins/DDTools/Source/ThirdParty/depsReLog/spdlog/include/spdlog/sinks/ansicolor_sink.h"; sourceTree = SOURCE_ROOT; };
+		67C6904F3385A3E405F24DE8 /* ansicolor_sink-inl.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; name = "ansicolor_sink-inl.h"; path = "../../Plugins/DDTools/Source/ThirdParty/depsReLog/spdlog/include/spdlog/sinks/ansicolor_sink-inl.h"; sourceTree = SOURCE_ROOT; };
+		96B0819B52AAAB7B4E1EAA14 /* base_sink.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; name = "base_sink.h"; path = "../../Plugins/DDTools/Source/ThirdParty/depsReLog/spdlog/include/spdlog/sinks/base_sink.h"; sourceTree = SOURCE_ROOT; };
+		FAD7837D2378423D5444834F /* base_sink-inl.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; name = "base_sink-inl.h"; path = "../../Plugins/DDTools/Source/ThirdParty/depsReLog/spdlog/include/spdlog/sinks/base_sink-inl.h"; sourceTree = SOURCE_ROOT; };
+		D29A6909ECE77C38151885EA /* basic_file_sink.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; name = "basic_file_sink.h"; path = "../../Plugins/DDTools/Source/ThirdParty/depsReLog/spdlog/include/spdlog/sinks/basic_file_sink.h"; sourceTree = SOURCE_ROOT; };
+		156792A14B28D8629C64E672 /* basic_file_sink-inl.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; name = "basic_file_sink-inl.h"; path = "../../Plugins/DDTools/Source/ThirdParty/depsReLog/spdlog/include/spdlog/sinks/basic_file_sink-inl.h"; sourceTree = SOURCE_ROOT; };
+		4400BA995C64143208A0CFB1 /* daily_file_sink.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; name = "daily_file_sink.h"; path = "../../Plugins/DDTools/Source/ThirdParty/depsReLog/spdlog/include/spdlog/sinks/daily_file_sink.h"; sourceTree = SOURCE_ROOT; };
+		D8DAF10D6BB19818260EC5EC /* dist_sink.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; name = "dist_sink.h"; path = "../../Plugins/DDTools/Source/ThirdParty/depsReLog/spdlog/include/spdlog/sinks/dist_sink.h"; sourceTree = SOURCE_ROOT; };
+		D1C3C6AD5C9539436E2BC182 /* dup_filter_sink.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; name = "dup_filter_sink.h"; path = "../../Plugins/DDTools/Source/ThirdParty/depsReLog/spdlog/include/spdlog/sinks/dup_filter_sink.h"; sourceTree = SOURCE_ROOT; };
+		D1ABDBCE1E1A545B727B3CA8 /* msvc_sink.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; name = "msvc_sink.h"; path = "../../Plugins/DDTools/Source/ThirdParty/depsReLog/spdlog/include/spdlog/sinks/msvc_sink.h"; sourceTree = SOURCE_ROOT; };
+		8C8A6F83F2B76C473BC1DBB0 /* null_sink.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; name = "null_sink.h"; path = "../../Plugins/DDTools/Source/ThirdParty/depsReLog/spdlog/include/spdlog/sinks/null_sink.h"; sourceTree = SOURCE_ROOT; };
+		FAFADB880C87E2786DDF4193 /* ostream_sink.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; name = "ostream_sink.h"; path = "../../Plugins/DDTools/Source/ThirdParty/depsReLog/spdlog/include/spdlog/sinks/ostream_sink.h"; sourceTree = SOURCE_ROOT; };
+		5B2929BB4947316E1D5289F7 /* ringbuffer_sink.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; name = "ringbuffer_sink.h"; path = "../../Plugins/DDTools/Source/ThirdParty/depsReLog/spdlog/include/spdlog/sinks/ringbuffer_sink.h"; sourceTree = SOURCE_ROOT; };
+		BAB749ACC7FA41C98021BEF5 /* rotating_file_sink.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; name = "rotating_file_sink.h"; path = "../../Plugins/DDTools/Source/ThirdParty/depsReLog/spdlog/include/spdlog/sinks/rotating_file_sink.h"; sourceTree = SOURCE_ROOT; };
+		FD54E8D5B1430DEF24702CE2 /* rotating_file_sink-inl.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; name = "rotating_file_sink-inl.h"; path = "../../Plugins/DDTools/Source/ThirdParty/depsReLog/spdlog/include/spdlog/sinks/rotating_file_sink-inl.h"; sourceTree = SOURCE_ROOT; };
+		169B12AD9D737562619177AA /* sink.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; name = "sink.h"; path = "../../Plugins/DDTools/Source/ThirdParty/depsReLog/spdlog/include/spdlog/sinks/sink.h"; sourceTree = SOURCE_ROOT; };
+		341D2D551C51C08D75BC1BF9 /* sink-inl.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; name = "sink-inl.h"; path = "../../Plugins/DDTools/Source/ThirdParty/depsReLog/spdlog/include/spdlog/sinks/sink-inl.h"; sourceTree = SOURCE_ROOT; };
+		B634DB37B9241353BB2E3BF4 /* stdout_color_sinks.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; name = "stdout_color_sinks.h"; path = "../../Plugins/DDTools/Source/ThirdParty/depsReLog/spdlog/include/spdlog/sinks/stdout_color_sinks.h"; sourceTree = SOURCE_ROOT; };
+		72A83C53F41A4FFB56DA3E81 /* stdout_color_sinks-inl.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; name = "stdout_color_sinks-inl.h"; path = "../../Plugins/DDTools/Source/ThirdParty/depsReLog/spdlog/include/spdlog/sinks/stdout_color_sinks-inl.h"; sourceTree = SOURCE_ROOT; };
+		4B51266D2A69938A448DF63B /* stdout_sinks.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; name = "stdout_sinks.h"; path = "../../Plugins/DDTools/Source/ThirdParty/depsReLog/spdlog/include/spdlog/sinks/stdout_sinks.h"; sourceTree = SOURCE_ROOT; };
+		417D5A862A78FBF44BFA9CC0 /* stdout_sinks-inl.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; name = "stdout_sinks-inl.h"; path = "../../Plugins/DDTools/Source/ThirdParty/depsReLog/spdlog/include/spdlog/sinks/stdout_sinks-inl.h"; sourceTree = SOURCE_ROOT; };
+		3A212CC366DE7546B3343BD8 /* syslog_sink.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; name = "syslog_sink.h"; path = "../../Plugins/DDTools/Source/ThirdParty/depsReLog/spdlog/include/spdlog/sinks/syslog_sink.h"; sourceTree = SOURCE_ROOT; };
+		C182DD91518CA09D4AFB3208 /* systemd_sink.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; name = "systemd_sink.h"; path = "../../Plugins/DDTools/Source/ThirdParty/depsReLog/spdlog/include/spdlog/sinks/systemd_sink.h"; sourceTree = SOURCE_ROOT; };
+		ED159A707DD1E9719238148A /* wincolor_sink.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; name = "wincolor_sink.h"; path = "../../Plugins/DDTools/Source/ThirdParty/depsReLog/spdlog/include/spdlog/sinks/wincolor_sink.h"; sourceTree = SOURCE_ROOT; };
+		7CC7D77231550935BAF201E3 /* wincolor_sink-inl.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; name = "wincolor_sink-inl.h"; path = "../../Plugins/DDTools/Source/ThirdParty/depsReLog/spdlog/include/spdlog/sinks/wincolor_sink-inl.h"; sourceTree = SOURCE_ROOT; };
+		19C78E6FD2FE9FC759742933 /* spdlog.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; name = "spdlog.h"; path = "../../Plugins/DDTools/Source/ThirdParty/depsReLog/spdlog/include/spdlog/spdlog.h"; sourceTree = SOURCE_ROOT; };
+		327D62B7056B0E4D34677A15 /* spdlog-inl.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; name = "spdlog-inl.h"; path = "../../Plugins/DDTools/Source/ThirdParty/depsReLog/spdlog/include/spdlog/spdlog-inl.h"; sourceTree = SOURCE_ROOT; };
+		023E01116704F68C88F19D3D /* tweakme.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; name = "tweakme.h"; path = "../../Plugins/DDTools/Source/ThirdParty/depsReLog/spdlog/include/spdlog/tweakme.h"; sourceTree = SOURCE_ROOT; };
+		BADE54DC0E43A79D72366D93 /* version.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; name = "version.h"; path = "../../Plugins/DDTools/Source/ThirdParty/depsReLog/spdlog/include/spdlog/version.h"; sourceTree = SOURCE_ROOT; };
+		1CA69E94CD337DE92F63EB7E /* INSTALL */ = {isa = PBXFileReference; explicitFileType = file.text; name = "INSTALL"; path = "../../Plugins/DDTools/Source/ThirdParty/depsReLog/spdlog/INSTALL"; sourceTree = SOURCE_ROOT; };
+		FA4A30B312AACD1983453FFA /* LICENSE */ = {isa = PBXFileReference; explicitFileType = file.text; name = "LICENSE"; path = "../../Plugins/DDTools/Source/ThirdParty/depsReLog/spdlog/LICENSE"; sourceTree = SOURCE_ROOT; };
+		05B0A7B050E884D023BE7504 /* meson.build */ = {isa = PBXFileReference; explicitFileType = file.text; name = "meson.build"; path = "../../Plugins/DDTools/Source/ThirdParty/depsReLog/spdlog/meson.build"; sourceTree = SOURCE_ROOT; };
+		51D8D00DCE8967401D7D8235 /* meson_options.txt */ = {isa = PBXFileReference; explicitFileType = file.text; name = "meson_options.txt"; path = "../../Plugins/DDTools/Source/ThirdParty/depsReLog/spdlog/meson_options.txt"; sourceTree = SOURCE_ROOT; };
+		A829E9F699623D00F0D69A83 /* README.md */ = {isa = PBXFileReference; explicitFileType = file.text; name = "README.md"; path = "../../Plugins/DDTools/Source/ThirdParty/depsReLog/spdlog/README.md"; sourceTree = SOURCE_ROOT; };
+		BC6101B3C19A49BA2341841B /* clang_tidy.sh */ = {isa = PBXFileReference; explicitFileType = file.text; name = "clang_tidy.sh"; path = "../../Plugins/DDTools/Source/ThirdParty/depsReLog/spdlog/scripts/clang_tidy.sh"; sourceTree = SOURCE_ROOT; };
+		309A645E7458C5ACB067B41C /* extract_version.py */ = {isa = PBXFileReference; explicitFileType = file.text; name = "extract_version.py"; path = "../../Plugins/DDTools/Source/ThirdParty/depsReLog/spdlog/scripts/extract_version.py"; sourceTree = SOURCE_ROOT; };
+		4564423FF09D6352EF9B8227 /* format.sh */ = {isa = PBXFileReference; explicitFileType = file.text; name = "format.sh"; path = "../../Plugins/DDTools/Source/ThirdParty/depsReLog/spdlog/scripts/format.sh"; sourceTree = SOURCE_ROOT; };
+		E059D87403FDBDDF600A180F /* async.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; name = "async.cpp"; path = "../../Plugins/DDTools/Source/ThirdParty/depsReLog/spdlog/src/async.cpp"; sourceTree = SOURCE_ROOT; };
+		149BF7D0E6E675AA4B6F5F96 /* color_sinks.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; name = "color_sinks.cpp"; path = "../../Plugins/DDTools/Source/ThirdParty/depsReLog/spdlog/src/color_sinks.cpp"; sourceTree = SOURCE_ROOT; };
+		1C584F826EE31F5898D56067 /* file_sinks.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; name = "file_sinks.cpp"; path = "../../Plugins/DDTools/Source/ThirdParty/depsReLog/spdlog/src/file_sinks.cpp"; sourceTree = SOURCE_ROOT; };
+		123A5711C19530DEE700B48E /* fmt.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; name = "fmt.cpp"; path = "../../Plugins/DDTools/Source/ThirdParty/depsReLog/spdlog/src/fmt.cpp"; sourceTree = SOURCE_ROOT; };
+		A94C9765710DCFF60A396F34 /* spdlog.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; name = "spdlog.cpp"; path = "../../Plugins/DDTools/Source/ThirdParty/depsReLog/spdlog/src/spdlog.cpp"; sourceTree = SOURCE_ROOT; };
+		325C5620265D872A4F666774 /* stdout_sinks.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; name = "stdout_sinks.cpp"; path = "../../Plugins/DDTools/Source/ThirdParty/depsReLog/spdlog/src/stdout_sinks.cpp"; sourceTree = SOURCE_ROOT; };
+		14A6D37AE7851E2B8014B22A /* catch.hpp */ = {isa = PBXFileReference; explicitFileType = file.text; name = "catch.hpp"; path = "../../Plugins/DDTools/Source/ThirdParty/depsReLog/spdlog/tests/catch.hpp"; sourceTree = SOURCE_ROOT; };
+		EED6AC3E23B59B4BF770F7C1 /* catch.license */ = {isa = PBXFileReference; explicitFileType = file.text; name = "catch.license"; path = "../../Plugins/DDTools/Source/ThirdParty/depsReLog/spdlog/tests/catch.license"; sourceTree = SOURCE_ROOT; };
+		6EFC4A0C68E5B83E68F53215 /* CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = file.text; name = "CMakeLists.txt"; path = "../../Plugins/DDTools/Source/ThirdParty/depsReLog/spdlog/tests/CMakeLists.txt"; sourceTree = SOURCE_ROOT; };
+		8279777D16FC41BD84508C11 /* includes.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; name = "includes.h"; path = "../../Plugins/DDTools/Source/ThirdParty/depsReLog/spdlog/tests/includes.h"; sourceTree = SOURCE_ROOT; };
+		D22A3192C37F86493C76BCA9 /* main.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; name = "main.cpp"; path = "../../Plugins/DDTools/Source/ThirdParty/depsReLog/spdlog/tests/main.cpp"; sourceTree = SOURCE_ROOT; };
+		FEC9299571F6B1812007AAEC /* meson.build */ = {isa = PBXFileReference; explicitFileType = file.text; name = "meson.build"; path = "../../Plugins/DDTools/Source/ThirdParty/depsReLog/spdlog/tests/meson.build"; sourceTree = SOURCE_ROOT; };
+		3038734AC498BD8D203994F9 /* test_async.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; name = "test_async.cpp"; path = "../../Plugins/DDTools/Source/ThirdParty/depsReLog/spdlog/tests/test_async.cpp"; sourceTree = SOURCE_ROOT; };
+		3F37F66F70A6D49E3CCE6439 /* test_backtrace.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; name = "test_backtrace.cpp"; path = "../../Plugins/DDTools/Source/ThirdParty/depsReLog/spdlog/tests/test_backtrace.cpp"; sourceTree = SOURCE_ROOT; };
+		6B8E9CE8D656E6E707F40A8D /* test_create_dir.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; name = "test_create_dir.cpp"; path = "../../Plugins/DDTools/Source/ThirdParty/depsReLog/spdlog/tests/test_create_dir.cpp"; sourceTree = SOURCE_ROOT; };
+		7EFFEC567E9F643F871D03E1 /* test_daily_logger.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; name = "test_daily_logger.cpp"; path = "../../Plugins/DDTools/Source/ThirdParty/depsReLog/spdlog/tests/test_daily_logger.cpp"; sourceTree = SOURCE_ROOT; };
+		00502C2643274CCDCC3D69D7 /* test_dup_filter.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; name = "test_dup_filter.cpp"; path = "../../Plugins/DDTools/Source/ThirdParty/depsReLog/spdlog/tests/test_dup_filter.cpp"; sourceTree = SOURCE_ROOT; };
+		2DD69E0E6B33035018F0562D /* test_errors.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; name = "test_errors.cpp"; path = "../../Plugins/DDTools/Source/ThirdParty/depsReLog/spdlog/tests/test_errors.cpp"; sourceTree = SOURCE_ROOT; };
+		13CAFF902863B0C5DFB3F86C /* test_file_helper.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; name = "test_file_helper.cpp"; path = "../../Plugins/DDTools/Source/ThirdParty/depsReLog/spdlog/tests/test_file_helper.cpp"; sourceTree = SOURCE_ROOT; };
+		CEA6B11425A5F53C5B46FBA1 /* test_file_logging.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; name = "test_file_logging.cpp"; path = "../../Plugins/DDTools/Source/ThirdParty/depsReLog/spdlog/tests/test_file_logging.cpp"; sourceTree = SOURCE_ROOT; };
+		D47D916A31021ED7D6ADC281 /* test_fmt_helper.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; name = "test_fmt_helper.cpp"; path = "../../Plugins/DDTools/Source/ThirdParty/depsReLog/spdlog/tests/test_fmt_helper.cpp"; sourceTree = SOURCE_ROOT; };
+		F00A39A8EE340C3DCF1E40A8 /* test_macros.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; name = "test_macros.cpp"; path = "../../Plugins/DDTools/Source/ThirdParty/depsReLog/spdlog/tests/test_macros.cpp"; sourceTree = SOURCE_ROOT; };
+		F01302897F94511318C87927 /* test_misc.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; name = "test_misc.cpp"; path = "../../Plugins/DDTools/Source/ThirdParty/depsReLog/spdlog/tests/test_misc.cpp"; sourceTree = SOURCE_ROOT; };
+		B0B81A1FF5DD18490795B8DA /* test_mpmc_q.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; name = "test_mpmc_q.cpp"; path = "../../Plugins/DDTools/Source/ThirdParty/depsReLog/spdlog/tests/test_mpmc_q.cpp"; sourceTree = SOURCE_ROOT; };
+		3928E52AF46E47F8EDD1D8C7 /* test_pattern_formatter.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; name = "test_pattern_formatter.cpp"; path = "../../Plugins/DDTools/Source/ThirdParty/depsReLog/spdlog/tests/test_pattern_formatter.cpp"; sourceTree = SOURCE_ROOT; };
+		C777C62F68DA1FCC2768E6CC /* test_registry.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; name = "test_registry.cpp"; path = "../../Plugins/DDTools/Source/ThirdParty/depsReLog/spdlog/tests/test_registry.cpp"; sourceTree = SOURCE_ROOT; };
+		0D539BE1C45DF429B7C6637D /* test_sink.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; name = "test_sink.h"; path = "../../Plugins/DDTools/Source/ThirdParty/depsReLog/spdlog/tests/test_sink.h"; sourceTree = SOURCE_ROOT; };
+		DB86E4FD231174D0B52B2214 /* test_stdout_api.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; name = "test_stdout_api.cpp"; path = "../../Plugins/DDTools/Source/ThirdParty/depsReLog/spdlog/tests/test_stdout_api.cpp"; sourceTree = SOURCE_ROOT; };
+		30D9AD9D56B04FBB10D9063E /* test_systemd.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; name = "test_systemd.cpp"; path = "../../Plugins/DDTools/Source/ThirdParty/depsReLog/spdlog/tests/test_systemd.cpp"; sourceTree = SOURCE_ROOT; };
+		03D59D8F3D12370395AECC49 /* utils.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; name = "utils.cpp"; path = "../../Plugins/DDTools/Source/ThirdParty/depsReLog/spdlog/tests/utils.cpp"; sourceTree = SOURCE_ROOT; };
+		B56DDEF8107440B505399A81 /* utils.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; name = "utils.h"; path = "../../Plugins/DDTools/Source/ThirdParty/depsReLog/spdlog/tests/utils.h"; sourceTree = SOURCE_ROOT; };
+		DEF8BC0563F98319A20A2AF0 /* highCastlePD.uplugin */ = {isa = PBXFileReference; explicitFileType = file.text; name = "highCastlePD.uplugin"; path = "../../Plugins/highCastlePD/highCastlePD.uplugin"; sourceTree = SOURCE_ROOT; };
+		B80A984C295A173522C21D8E /* Icon128.png */ = {isa = PBXFileReference; explicitFileType = image.png; name = "Icon128.png"; path = "../../Plugins/highCastlePD/Resources/Icon128.png"; sourceTree = SOURCE_ROOT; };
+		18C1A08F766D3C398420D9CF /* highCastlePD.Build.cs */ = {isa = PBXFileReference; explicitFileType = file.text; name = "highCastlePD.Build.cs"; path = "../../Plugins/highCastlePD/Source/highCastlePD/highCastlePD.Build.cs"; sourceTree = SOURCE_ROOT; };
+		E806C434208651F92B63E04E /* git-describe.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; name = "git-describe.h"; path = "../../Plugins/highCastlePD/Source/highCastlePD/Private/git-describe.h"; sourceTree = SOURCE_ROOT; };
+		0F885C1378183F1FCE84A66F /* highCastlePD.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; name = "highCastlePD.cpp"; path = "../../Plugins/highCastlePD/Source/highCastlePD/Private/highCastlePD.cpp"; sourceTree = SOURCE_ROOT; };
+		D7AC2DDBFB0034393C602498 /* highCastlePD.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; name = "highCastlePD.h"; path = "../../Plugins/highCastlePD/Source/highCastlePD/Public/highCastlePD.h"; sourceTree = SOURCE_ROOT; };
+		47FF22070AFA056B3B9F3CCB /* depshighCastlePD.Build.cs */ = {isa = PBXFileReference; explicitFileType = file.text; name = "depshighCastlePD.Build.cs"; path = "../../Plugins/highCastlePD/Source/ThirdParty/depshighCastlePD/depshighCastlePD.Build.cs"; sourceTree = SOURCE_ROOT; };
+		5F91AB9D24FDB208BF3993FC /* depshighCastlePD.tps */ = {isa = PBXFileReference; explicitFileType = file.text; name = "depshighCastlePD.tps"; path = "../../Plugins/highCastlePD/Source/ThirdParty/depshighCastlePD/depshighCastlePD.tps"; sourceTree = SOURCE_ROOT; };
+		10E4841AB4578BB4EF66F8B7 /* ProjectionsDev.uproject */ = {isa = PBXFileReference; explicitFileType = file.text; name = "ProjectionsDev.uproject"; path = "../../ProjectionsDev.uproject"; sourceTree = SOURCE_ROOT; };
+		9F1A6E3CBDFC1C4D72A426E5 /* README.md */ = {isa = PBXFileReference; explicitFileType = file.text; name = "README.md"; path = "../../README.md"; sourceTree = SOURCE_ROOT; };
+		940AC694D607EE88F16DFF10 /* ProjectionsDev.Target.cs */ = {isa = PBXFileReference; explicitFileType = file.text; name = "ProjectionsDev.Target.cs"; path = "../../Source/ProjectionsDev.Target.cs"; sourceTree = SOURCE_ROOT; };
+		9CB1FF9D9BA40FC72C8FA878 /* MyClass.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; name = "MyClass.cpp"; path = "../../Source/ProjectionsDev/MyClass.cpp"; sourceTree = SOURCE_ROOT; };
+		3CF1ED2A234791A96AEA0073 /* MyClass.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; name = "MyClass.h"; path = "../../Source/ProjectionsDev/MyClass.h"; sourceTree = SOURCE_ROOT; };
+		731F9FCCA976F175C2DD60AA /* ProjectionsDev.Build.cs */ = {isa = PBXFileReference; explicitFileType = file.text; name = "ProjectionsDev.Build.cs"; path = "../../Source/ProjectionsDev/ProjectionsDev.Build.cs"; sourceTree = SOURCE_ROOT; };
+		C7F2870256A09C85FEF9B703 /* ProjectionsDev.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; name = "ProjectionsDev.cpp"; path = "../../Source/ProjectionsDev/ProjectionsDev.cpp"; sourceTree = SOURCE_ROOT; };
+		28EC5087AA8E8DA0E0C805B7 /* ProjectionsDev.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; name = "ProjectionsDev.h"; path = "../../Source/ProjectionsDev/ProjectionsDev.h"; sourceTree = SOURCE_ROOT; };
+		6EF1EB4E659A8BF798C986A9 /* ProjectionsDevEditor.Target.cs */ = {isa = PBXFileReference; explicitFileType = file.text; name = "ProjectionsDevEditor.Target.cs"; path = "../../Source/ProjectionsDevEditor.Target.cs"; sourceTree = SOURCE_ROOT; };
+		131A65F9E8E17E37E277EDFB /* ProjectionsDev */ = {isa = PBXFileReference; explicitFileType = wrapper.application; path = ProjectionsDev; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F53ABAC2AB56CFD3604AED26 = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E8C7FCEB107E0257250A95EB /* DDBase.cpp in Sources */,
+				48C2D5AF12EC69E5350AEED4 /* DDBlueprintLibrary.cpp in Sources */,
+				390397C21FEE82C3EF6E229B /* DDBlueprints.cpp in Sources */,
+				6036F047F3F5CD7CF5410357 /* DDHelpers.cpp in Sources */,
+				F753852322699CB1D626D263 /* DDModuleWidget.cpp in Sources */,
+				0ABA440B963F1705E70F563A /* DDLog.cpp in Sources */,
+				466E24CA3379E6A469F90E4D /* logging.cpp in Sources */,
+				5788557AD532FF43271FB260 /* DDManager.cpp in Sources */,
+				187602995735E7CD33E4A3FE /* async_bench.cpp in Sources */,
+				9F8FF84BA26A49E934E68863 /* bench.cpp in Sources */,
+				0857EF298C8875998DC8F9C7 /* formatter-bench.cpp in Sources */,
+				173041F862AA4AB34408424A /* latency.cpp in Sources */,
+				306F0D9B944A09EDF599B040 /* example.cpp in Sources */,
+				36EB45CA7CD86B53E49B18D3 /* async.cpp in Sources */,
+				1686BC1204622C35B387C103 /* color_sinks.cpp in Sources */,
+				C5EE4FF1DDA2C62CD336B4F6 /* file_sinks.cpp in Sources */,
+				06ECF97A946EC4A626254D15 /* fmt.cpp in Sources */,
+				97F33B675006FEEF8DE8EBF0 /* spdlog.cpp in Sources */,
+				8C0E9702A5818005386BE3A1 /* stdout_sinks.cpp in Sources */,
+				D9DF08CA796633A28401586F /* main.cpp in Sources */,
+				CAAFFA05C942D462235F8C5A /* test_async.cpp in Sources */,
+				56F1D745C53B88367349307F /* test_backtrace.cpp in Sources */,
+				8366BC884A1DCB911B00AFD8 /* test_create_dir.cpp in Sources */,
+				A14E1C7A65F5BD878C9DC25F /* test_daily_logger.cpp in Sources */,
+				09ECC7E6E87D328F5B2EE7FB /* test_dup_filter.cpp in Sources */,
+				6A8F69678FCA06834A3A7178 /* test_errors.cpp in Sources */,
+				733EFC5FD13615CB82F07B58 /* test_file_helper.cpp in Sources */,
+				883D61983A18BE79393BF451 /* test_file_logging.cpp in Sources */,
+				347228B43F904DC04590D693 /* test_fmt_helper.cpp in Sources */,
+				B19CA03ABDBB104242C064C8 /* test_macros.cpp in Sources */,
+				148B0B582723CB86AFA602A3 /* test_misc.cpp in Sources */,
+				C875E9A2A185B2935CF82531 /* test_mpmc_q.cpp in Sources */,
+				3182BD3BCD2C8F4B12E390B1 /* test_pattern_formatter.cpp in Sources */,
+				79311E3BB0301F32BD0F711E /* test_registry.cpp in Sources */,
+				A8178F13B10B9F114B5243C2 /* test_stdout_api.cpp in Sources */,
+				3F3D08CA73BC14318AD7F036 /* test_systemd.cpp in Sources */,
+				79F706A65292C77CF57AD374 /* utils.cpp in Sources */,
+				D3B13F97FC60FCF1E7AECA63 /* highCastlePD.cpp in Sources */,
+				DE2D2F415BB95D8B01B527C1 /* MyClass.cpp in Sources */,
+				B7E5A4E4FEFE0D6466D23FD6 /* ProjectionsDev.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+	D93E0EBA3457283B49FC7384 /* Embed App Extensions */ = {
+		isa = PBXCopyFilesBuildPhase;
+		buildActionMask = 2147483647;
+		dstPath = "";
+		dstSubfolderSpec = 13;
+		files = (
+		);
+		name = "Embed App Extensions";
+		runOnlyForDeploymentPostprocessing = 0;
+	};
+/* End PBXCopyFilesBuildPhase section */
+/* Begin PBXContainerItemProxy section */
+		8898EF981603FD83F2D6E0B5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AF5C37FC45340A083A564713 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CFBFDDEBACDF77BBE90DB4B2;
+			remoteInfo = "ProjectionsDev_Build";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXGroup section */
+		0E1F5ACCF98021F0EAD6BF31 = {
+			isa = PBXGroup;
+			children = (
+				C5D33EE4600E5ED0AB53EC3B /* Config */,
+				8AB94455B64F4D8F6149D953 /* Plugins */,
+				9D87A37115A50F4F7CB7DEC3 /* Source */,
+				10E4841AB4578BB4EF66F8B7 /* ProjectionsDev.uproject */,
+				9F1A6E3CBDFC1C4D72A426E5 /* README.md */,
+				1EC6CB76E9C11CD0CAC30055 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C5D33EE4600E5ED0AB53EC3B = {
+			isa = PBXGroup;
+			children = (
+				5F9DE5957E2E508B5E16B00A /* Android */,
+				94D2D5F74DC72201FE274416 /* IOS */,
+				3E98FDA79A8FACE28C94922C /* Linux */,
+				F313BC439B7B89AE23344F8D /* Mac */,
+				386683E431EA3C3859CE56E5 /* PS4 */,
+				31A8F1CF6ACD7D003FA80439 /* Switch */,
+				0ADE65839E95F309486F6F34 /* Windows */,
+				0BC7B0A1585AD324BCD612F3 /* XboxOne */,
+				5873D72E80F5FC38B15BAE4B /* DefaultEditor.ini */,
+				4E6FC01DBECF6EAFE3EBE34A /* DefaultEngine.ini */,
+				CEDBC2E8B849B360A801E011 /* DefaultGame.ini */,
+				6BB943E2C40AE476452D4EE3 /* DefaultInput.ini */,
+			);
+			name = "Config";
+			path = "/Volumes/Robin/unreal_projects/MITHCProjectionsDev/Config";
+			sourceTree = "<absolute>";
+		};
+		5F9DE5957E2E508B5E16B00A = {
+			isa = PBXGroup;
+			children = (
+				7451D3F36FE827DF64027CFE /* AndroidEngine.ini */,
+			);
+			name = "Android";
+			path = "/Volumes/Robin/unreal_projects/MITHCProjectionsDev/Config/Android";
+			sourceTree = "<absolute>";
+		};
+		94D2D5F74DC72201FE274416 = {
+			isa = PBXGroup;
+			children = (
+				07CD09E84C53B2B0707A6D73 /* IOSEngine.ini */,
+			);
+			name = "IOS";
+			path = "/Volumes/Robin/unreal_projects/MITHCProjectionsDev/Config/IOS";
+			sourceTree = "<absolute>";
+		};
+		3E98FDA79A8FACE28C94922C = {
+			isa = PBXGroup;
+			children = (
+				E60406A3EF4238DE7A6CECA2 /* LinuxEngine.ini */,
+			);
+			name = "Linux";
+			path = "/Volumes/Robin/unreal_projects/MITHCProjectionsDev/Config/Linux";
+			sourceTree = "<absolute>";
+		};
+		F313BC439B7B89AE23344F8D = {
+			isa = PBXGroup;
+			children = (
+				626E002216CD5D0D39A20148 /* MacEngine.ini */,
+			);
+			name = "Mac";
+			path = "/Volumes/Robin/unreal_projects/MITHCProjectionsDev/Config/Mac";
+			sourceTree = "<absolute>";
+		};
+		386683E431EA3C3859CE56E5 = {
+			isa = PBXGroup;
+			children = (
+				DB6DB93C6B0703BD9DDA4180 /* PS4Engine.ini */,
+			);
+			name = "PS4";
+			path = "/Volumes/Robin/unreal_projects/MITHCProjectionsDev/Config/PS4";
+			sourceTree = "<absolute>";
+		};
+		31A8F1CF6ACD7D003FA80439 = {
+			isa = PBXGroup;
+			children = (
+				0A5F49D4309D28FCF03A47A9 /* SwitchEngine.ini */,
+			);
+			name = "Switch";
+			path = "/Volumes/Robin/unreal_projects/MITHCProjectionsDev/Config/Switch";
+			sourceTree = "<absolute>";
+		};
+		0ADE65839E95F309486F6F34 = {
+			isa = PBXGroup;
+			children = (
+				C64BBB25FD428890A978320C /* WindowsEngine.ini */,
+			);
+			name = "Windows";
+			path = "/Volumes/Robin/unreal_projects/MITHCProjectionsDev/Config/Windows";
+			sourceTree = "<absolute>";
+		};
+		0BC7B0A1585AD324BCD612F3 = {
+			isa = PBXGroup;
+			children = (
+				3C369DF99F5272C9721C0DE5 /* XboxOneEngine.ini */,
+			);
+			name = "XboxOne";
+			path = "/Volumes/Robin/unreal_projects/MITHCProjectionsDev/Config/XboxOne";
+			sourceTree = "<absolute>";
+		};
+		8AB94455B64F4D8F6149D953 = {
+			isa = PBXGroup;
+			children = (
+				85B99AC3DA4C9DC139BCC3A2 /* DDTools */,
+				2538B06A7FB2BBC0EE24440F /* highCastlePD */,
+			);
+			name = "Plugins";
+			path = "/Volumes/Robin/unreal_projects/MITHCProjectionsDev/Plugins";
+			sourceTree = "<absolute>";
+		};
+		85B99AC3DA4C9DC139BCC3A2 = {
+			isa = PBXGroup;
+			children = (
+				1CDCA7E5D5DF7D34CB72F8E4 /* Resources */,
+				519E53F821DFD2C1EE5D1C9E /* Source */,
+				75DB2B09D8F10E56E8A42826 /* DDTools.uplugin */,
+			);
+			name = "DDTools";
+			path = "/Volumes/Robin/unreal_projects/MITHCProjectionsDev/Plugins/DDTools";
+			sourceTree = "<absolute>";
+		};
+		1CDCA7E5D5DF7D34CB72F8E4 = {
+			isa = PBXGroup;
+			children = (
+				DFE8B3FB875028E32C1E8EFB /* Icon128.png */,
+			);
+			name = "Resources";
+			path = "/Volumes/Robin/unreal_projects/MITHCProjectionsDev/Plugins/DDTools/Resources";
+			sourceTree = "<absolute>";
+		};
+		519E53F821DFD2C1EE5D1C9E = {
+			isa = PBXGroup;
+			children = (
+				BF10496F3950BACEF5A238DA /* DDBase */,
+				950DFB7BB72AEEAF657950B9 /* DDBlueprints */,
+				AA0C5B96C7C2D68054E63598 /* DDHelpers */,
+				AD4741DB36F540CA2A4BE583 /* DDLog */,
+				DA4A52A126FF2DFA153D5AFA /* DDManager */,
+				11841D42D556B7C49027631F /* ThirdParty */,
+			);
+			name = "Source";
+			path = "/Volumes/Robin/unreal_projects/MITHCProjectionsDev/Plugins/DDTools/Source";
+			sourceTree = "<absolute>";
+		};
+		BF10496F3950BACEF5A238DA = {
+			isa = PBXGroup;
+			children = (
+				A768BA81CCA58713C0B6713C /* Private */,
+				F9A49F5AE902B3BFBF0925C4 /* Public */,
+				3BF83D9298F81B40C18AB2C0 /* DDBase.Build.cs */,
+			);
+			name = "DDBase";
+			path = "/Volumes/Robin/unreal_projects/MITHCProjectionsDev/Plugins/DDTools/Source/DDBase";
+			sourceTree = "<absolute>";
+		};
+		A768BA81CCA58713C0B6713C = {
+			isa = PBXGroup;
+			children = (
+				259225FEDDB46D8E2537CE5F /* DDBase.cpp */,
+			);
+			name = "Private";
+			path = "/Volumes/Robin/unreal_projects/MITHCProjectionsDev/Plugins/DDTools/Source/DDBase/Private";
+			sourceTree = "<absolute>";
+		};
+		F9A49F5AE902B3BFBF0925C4 = {
+			isa = PBXGroup;
+			children = (
+				1010C65B2AEA6D3162516D05 /* DDBase.h */,
+			);
+			name = "Public";
+			path = "/Volumes/Robin/unreal_projects/MITHCProjectionsDev/Plugins/DDTools/Source/DDBase/Public";
+			sourceTree = "<absolute>";
+		};
+		950DFB7BB72AEEAF657950B9 = {
+			isa = PBXGroup;
+			children = (
+				2450F449D609DD099E0D7694 /* Private */,
+				B05FE4F3EE791A9E42F6EBBE /* Public */,
+				63C4896EDF33839AD0D3219B /* DDBlueprints.Build.cs */,
+			);
+			name = "DDBlueprints";
+			path = "/Volumes/Robin/unreal_projects/MITHCProjectionsDev/Plugins/DDTools/Source/DDBlueprints";
+			sourceTree = "<absolute>";
+		};
+		2450F449D609DD099E0D7694 = {
+			isa = PBXGroup;
+			children = (
+				6C453085C9AE573604CA0968 /* DDBlueprintLibrary.cpp */,
+				7F34C103C1487858D5B50299 /* DDBlueprints.cpp */,
+			);
+			name = "Private";
+			path = "/Volumes/Robin/unreal_projects/MITHCProjectionsDev/Plugins/DDTools/Source/DDBlueprints/Private";
+			sourceTree = "<absolute>";
+		};
+		B05FE4F3EE791A9E42F6EBBE = {
+			isa = PBXGroup;
+			children = (
+				54A7C546872BE4FD22940595 /* DDBlueprintLibrary.h */,
+				1E604704D7A4E213BEB2AE19 /* DDBlueprints.h */,
+			);
+			name = "Public";
+			path = "/Volumes/Robin/unreal_projects/MITHCProjectionsDev/Plugins/DDTools/Source/DDBlueprints/Public";
+			sourceTree = "<absolute>";
+		};
+		AA0C5B96C7C2D68054E63598 = {
+			isa = PBXGroup;
+			children = (
+				0D6AE8B62B1C26889766CA57 /* Private */,
+				45FBC0EB5EB1762E64369EC9 /* Public */,
+				879963C4AFFF9FB3F2E24C59 /* DDHelpers.Build.cs */,
+			);
+			name = "DDHelpers";
+			path = "/Volumes/Robin/unreal_projects/MITHCProjectionsDev/Plugins/DDTools/Source/DDHelpers";
+			sourceTree = "<absolute>";
+		};
+		0D6AE8B62B1C26889766CA57 = {
+			isa = PBXGroup;
+			children = (
+				C5C72BDCD1982B6E7C08C590 /* DDHelpers.cpp */,
+				84117AB97C119A46960BFEE8 /* DDModuleWidget.cpp */,
+			);
+			name = "Private";
+			path = "/Volumes/Robin/unreal_projects/MITHCProjectionsDev/Plugins/DDTools/Source/DDHelpers/Private";
+			sourceTree = "<absolute>";
+		};
+		45FBC0EB5EB1762E64369EC9 = {
+			isa = PBXGroup;
+			children = (
+				6FAA598CA451819FF4C757C0 /* DDHelpers.h */,
+				8741FAF8497AF124C0DA49D2 /* DDModuleWidget.h */,
+			);
+			name = "Public";
+			path = "/Volumes/Robin/unreal_projects/MITHCProjectionsDev/Plugins/DDTools/Source/DDHelpers/Public";
+			sourceTree = "<absolute>";
+		};
+		AD4741DB36F540CA2A4BE583 = {
+			isa = PBXGroup;
+			children = (
+				90647326CF632643420350CC /* Private */,
+				01EB21A26F0733D6CB1F08E3 /* Public */,
+				73A4B3B0A8F5569DC95FEB2F /* DDLog.Build.cs */,
+			);
+			name = "DDLog";
+			path = "/Volumes/Robin/unreal_projects/MITHCProjectionsDev/Plugins/DDTools/Source/DDLog";
+			sourceTree = "<absolute>";
+		};
+		90647326CF632643420350CC = {
+			isa = PBXGroup;
+			children = (
+				4E5DB56BE049858B8E5FC57C /* DDLog.cpp */,
+				5A510C3D67E5F0644E78624A /* logging.cpp */,
+			);
+			name = "Private";
+			path = "/Volumes/Robin/unreal_projects/MITHCProjectionsDev/Plugins/DDTools/Source/DDLog/Private";
+			sourceTree = "<absolute>";
+		};
+		01EB21A26F0733D6CB1F08E3 = {
+			isa = PBXGroup;
+			children = (
+				1A4CD26E28B2D0544E68118F /* DDLog.h */,
+				BC67CA09576358928CE5221A /* logging.hpp */,
+			);
+			name = "Public";
+			path = "/Volumes/Robin/unreal_projects/MITHCProjectionsDev/Plugins/DDTools/Source/DDLog/Public";
+			sourceTree = "<absolute>";
+		};
+		DA4A52A126FF2DFA153D5AFA = {
+			isa = PBXGroup;
+			children = (
+				3E505E010F5B87AAF675D94B /* Private */,
+				D39E5A22170EB8715B8F4C84 /* Public */,
+				EC72EAF365654AD25BFA0463 /* DDManager.Build.cs */,
+			);
+			name = "DDManager";
+			path = "/Volumes/Robin/unreal_projects/MITHCProjectionsDev/Plugins/DDTools/Source/DDManager";
+			sourceTree = "<absolute>";
+		};
+		3E505E010F5B87AAF675D94B = {
+			isa = PBXGroup;
+			children = (
+				DCB561F5A941F36605B40CD7 /* DDManager.cpp */,
+			);
+			name = "Private";
+			path = "/Volumes/Robin/unreal_projects/MITHCProjectionsDev/Plugins/DDTools/Source/DDManager/Private";
+			sourceTree = "<absolute>";
+		};
+		D39E5A22170EB8715B8F4C84 = {
+			isa = PBXGroup;
+			children = (
+				0979363921F91ECCBF8A17B0 /* DDManager.h */,
+			);
+			name = "Public";
+			path = "/Volumes/Robin/unreal_projects/MITHCProjectionsDev/Plugins/DDTools/Source/DDManager/Public";
+			sourceTree = "<absolute>";
+		};
+		11841D42D556B7C49027631F = {
+			isa = PBXGroup;
+			children = (
+				A832C670985EED647007CE88 /* depsReLog */,
+			);
+			name = "ThirdParty";
+			path = "/Volumes/Robin/unreal_projects/MITHCProjectionsDev/Plugins/DDTools/Source/ThirdParty";
+			sourceTree = "<absolute>";
+		};
+		A832C670985EED647007CE88 = {
+			isa = PBXGroup;
+			children = (
+				A50AE20685E99FAE04D9F08B /* spdlog */,
+				856F8E44B10C1BA9DF44EECD /* depsReLog.Build.cs */,
+				7E4C6DACDF02E7734A7BD6BB /* depsReLog.tps */,
+			);
+			name = "depsReLog";
+			path = "/Volumes/Robin/unreal_projects/MITHCProjectionsDev/Plugins/DDTools/Source/ThirdParty/depsReLog";
+			sourceTree = "<absolute>";
+		};
+		A50AE20685E99FAE04D9F08B = {
+			isa = PBXGroup;
+			children = (
+				3E44D4A0BD15BAAC3A3B79E5 /* bench */,
+				4747D9FCA2E71309B6949DCA /* cmake */,
+				73B13FA688B51ACE413B3253 /* example */,
+				8A4DA65B4C214E6991FDBE3D /* include */,
+				293F6373D0B519D37D3DDB23 /* scripts */,
+				A149A58DDAF234A63285967C /* src */,
+				EC531D40DB0CB5F221FB3127 /* tests */,
+				81941787E67944AE895F0BE9 /* appveyor.yml */,
+				C061E65CA0F1F291ADE1C564 /* CMakeLists.txt */,
+				1CA69E94CD337DE92F63EB7E /* INSTALL */,
+				FA4A30B312AACD1983453FFA /* LICENSE */,
+				05B0A7B050E884D023BE7504 /* meson.build */,
+				51D8D00DCE8967401D7D8235 /* meson_options.txt */,
+				A829E9F699623D00F0D69A83 /* README.md */,
+			);
+			name = "spdlog";
+			path = "/Volumes/Robin/unreal_projects/MITHCProjectionsDev/Plugins/DDTools/Source/ThirdParty/depsReLog/spdlog";
+			sourceTree = "<absolute>";
+		};
+		3E44D4A0BD15BAAC3A3B79E5 = {
+			isa = PBXGroup;
+			children = (
+				8D58C98427C25CD6017FE93A /* async_bench.cpp */,
+				372CAA2C94091D3FF0EC4BEF /* bench.cpp */,
+				2493EAD847D2DB17ECE95F77 /* CMakeLists.txt */,
+				3D9C2BC99AB9C9A6CF664CFB /* formatter-bench.cpp */,
+				7B205DAB71EED66F32E3EFF7 /* latency.cpp */,
+				477D37E27D46833459E04D7A /* meson.build */,
+				0513909FE8A03F860E0164F4 /* utils.h */,
+			);
+			name = "bench";
+			path = "/Volumes/Robin/unreal_projects/MITHCProjectionsDev/Plugins/DDTools/Source/ThirdParty/depsReLog/spdlog/bench";
+			sourceTree = "<absolute>";
+		};
+		4747D9FCA2E71309B6949DCA = {
+			isa = PBXGroup;
+			children = (
+				703E112E2BDC1AFD6429DC6A /* ide.cmake */,
+				EBDCD586AB1A07DB398A2FAA /* spdlog.pc.in */,
+				6B3A7550B09C8564A65A17C5 /* spdlogConfig.cmake.in */,
+				6EE55E3FBE7E4D2F1475424E /* spdlogCPack.cmake */,
+				16466B16560BC5CDBCCFD384 /* utils.cmake */,
+			);
+			name = "cmake";
+			path = "/Volumes/Robin/unreal_projects/MITHCProjectionsDev/Plugins/DDTools/Source/ThirdParty/depsReLog/spdlog/cmake";
+			sourceTree = "<absolute>";
+		};
+		73B13FA688B51ACE413B3253 = {
+			isa = PBXGroup;
+			children = (
+				E376EDB50B0FBF5F0F233A6A /* CMakeLists.txt */,
+				811D2AF0647CD58AB91233E0 /* example.cpp */,
+				D00C1832829F6349C5AC34EE /* meson.build */,
+			);
+			name = "example";
+			path = "/Volumes/Robin/unreal_projects/MITHCProjectionsDev/Plugins/DDTools/Source/ThirdParty/depsReLog/spdlog/example";
+			sourceTree = "<absolute>";
+		};
+		8A4DA65B4C214E6991FDBE3D = {
+			isa = PBXGroup;
+			children = (
+				10A20C1CC6E6D4A9A7092C0C /* spdlog */,
+			);
+			name = "include";
+			path = "/Volumes/Robin/unreal_projects/MITHCProjectionsDev/Plugins/DDTools/Source/ThirdParty/depsReLog/spdlog/include";
+			sourceTree = "<absolute>";
+		};
+		10A20C1CC6E6D4A9A7092C0C = {
+			isa = PBXGroup;
+			children = (
+				D513238421AAA30C15867255 /* details */,
+				40B8BD9446343976F20296E5 /* fmt */,
+				FEC948E659B1278930B6DC0D /* sinks */,
+				885CDD8024CA7E6CD6A91F57 /* async.h */,
+				A7976F52120CAAB5959D0643 /* async_logger.h */,
+				79E19812632944A38E93A925 /* async_logger-inl.h */,
+				BE6AD634D95DB0C540A38EF1 /* common.h */,
+				C4204213BA8C90D7B2ED6ACC /* common-inl.h */,
+				EA46E8065231EFE2577F544F /* formatter.h */,
+				323A075BB0DD104A8F970DCC /* logger.h */,
+				F88618AC5084C18177624A92 /* logger-inl.h */,
+				19C78E6FD2FE9FC759742933 /* spdlog.h */,
+				327D62B7056B0E4D34677A15 /* spdlog-inl.h */,
+				023E01116704F68C88F19D3D /* tweakme.h */,
+				BADE54DC0E43A79D72366D93 /* version.h */,
+			);
+			name = "spdlog";
+			path = "/Volumes/Robin/unreal_projects/MITHCProjectionsDev/Plugins/DDTools/Source/ThirdParty/depsReLog/spdlog/include/spdlog";
+			sourceTree = "<absolute>";
+		};
+		D513238421AAA30C15867255 = {
+			isa = PBXGroup;
+			children = (
+				53668BA0F2943CB3976B98AB /* backtracer.h */,
+				4462EA15C04C1A6420095688 /* backtracer-inl.h */,
+				1E653FBC3CA1B75C2BB0C259 /* circular_q.h */,
+				22A58A2A7544027BC127828D /* console_globals.h */,
+				2DFB90465243E89F40E9938D /* file_helper.h */,
+				96E72693E561E14B7A889996 /* file_helper-inl.h */,
+				5599FA88EACBA8B1B0D965EA /* fmt_helper.h */,
+				3EDC2DEB8AB22DFBCFBBD8B1 /* log_msg.h */,
+				0397D3F1DB280000EEEDA5A9 /* log_msg_buffer.h */,
+				45E0EB167B853405A9A883F5 /* log_msg_buffer-inl.h */,
+				B03852C1D16A674D1B6AF1B9 /* log_msg-inl.h */,
+				556629B55460B843E49013E3 /* mpmc_blocking_q.h */,
+				749F05B4FA2BF71A8EDE9B75 /* null_mutex.h */,
+				D77A1A74546A23D707C20B72 /* os.h */,
+				A98728E0E1B91D3BC50341B5 /* os-inl.h */,
+				C1801347048553E047E85B47 /* pattern_formatter.h */,
+				190D9F0946C49BF406CB0967 /* pattern_formatter-inl.h */,
+				D86B71E06A7D72F04BFBCEB0 /* periodic_worker.h */,
+				78541BA0489A3A42581E48C6 /* periodic_worker-inl.h */,
+				91710733B1E3F60DD99EB880 /* registry.h */,
+				27EABFE4B17FCAD8C354C7DD /* registry-inl.h */,
+				411301774FDC4DE7D2FA533F /* synchronous_factory.h */,
+				CF0CB631B6FBB2E9F6E35DA0 /* thread_pool.h */,
+				19AF848E5203D9D7ECB3F29E /* thread_pool-inl.h */,
+			);
+			name = "details";
+			path = "/Volumes/Robin/unreal_projects/MITHCProjectionsDev/Plugins/DDTools/Source/ThirdParty/depsReLog/spdlog/include/spdlog/details";
+			sourceTree = "<absolute>";
+		};
+		40B8BD9446343976F20296E5 = {
+			isa = PBXGroup;
+			children = (
+				A9FE085A6788AB8020998538 /* bundled */,
+				FC0639D0A958E31A5CEABF46 /* bin_to_hex.h */,
+				3BDFA3BDAB8EF4460DD835B0 /* fmt.h */,
+				5B62C39CE100BCDE60A795CA /* ostr.h */,
+			);
+			name = "fmt";
+			path = "/Volumes/Robin/unreal_projects/MITHCProjectionsDev/Plugins/DDTools/Source/ThirdParty/depsReLog/spdlog/include/spdlog/fmt";
+			sourceTree = "<absolute>";
+		};
+		A9FE085A6788AB8020998538 = {
+			isa = PBXGroup;
+			children = (
+				D3757786140D04EA34A4D4D7 /* chrono.h */,
+				132C581C2013D35220220A64 /* color.h */,
+				512806A4076017AD71D873E8 /* compile.h */,
+				CF1E604B12DE1B85211ACBF8 /* core.h */,
+				38F8D575AC7D6FDF831F9C1E /* format.h */,
+				AEF35300D52A6AB1C2FDD5E9 /* format-inl.h */,
+				C709FDDED93892ED5C2C6248 /* LICENSE.rst */,
+				C2602BAB280024DDE0B0C8DD /* locale.h */,
+				3CCFEA029A0349D73997B34B /* ostream.h */,
+				15F08263FADD0D4559886F58 /* posix.h */,
+				3EE2E5703E2D4F692D2FEDA9 /* printf.h */,
+				7D6173622FE5785CFDB92417 /* ranges.h */,
+			);
+			name = "bundled";
+			path = "/Volumes/Robin/unreal_projects/MITHCProjectionsDev/Plugins/DDTools/Source/ThirdParty/depsReLog/spdlog/include/spdlog/fmt/bundled";
+			sourceTree = "<absolute>";
+		};
+		FEC948E659B1278930B6DC0D = {
+			isa = PBXGroup;
+			children = (
+				144732D3C52974E0760CF3DC /* android_sink.h */,
+				CBE330A4EC94BE4FE3466CFF /* ansicolor_sink.h */,
+				67C6904F3385A3E405F24DE8 /* ansicolor_sink-inl.h */,
+				96B0819B52AAAB7B4E1EAA14 /* base_sink.h */,
+				FAD7837D2378423D5444834F /* base_sink-inl.h */,
+				D29A6909ECE77C38151885EA /* basic_file_sink.h */,
+				156792A14B28D8629C64E672 /* basic_file_sink-inl.h */,
+				4400BA995C64143208A0CFB1 /* daily_file_sink.h */,
+				D8DAF10D6BB19818260EC5EC /* dist_sink.h */,
+				D1C3C6AD5C9539436E2BC182 /* dup_filter_sink.h */,
+				D1ABDBCE1E1A545B727B3CA8 /* msvc_sink.h */,
+				8C8A6F83F2B76C473BC1DBB0 /* null_sink.h */,
+				FAFADB880C87E2786DDF4193 /* ostream_sink.h */,
+				5B2929BB4947316E1D5289F7 /* ringbuffer_sink.h */,
+				BAB749ACC7FA41C98021BEF5 /* rotating_file_sink.h */,
+				FD54E8D5B1430DEF24702CE2 /* rotating_file_sink-inl.h */,
+				169B12AD9D737562619177AA /* sink.h */,
+				341D2D551C51C08D75BC1BF9 /* sink-inl.h */,
+				B634DB37B9241353BB2E3BF4 /* stdout_color_sinks.h */,
+				72A83C53F41A4FFB56DA3E81 /* stdout_color_sinks-inl.h */,
+				4B51266D2A69938A448DF63B /* stdout_sinks.h */,
+				417D5A862A78FBF44BFA9CC0 /* stdout_sinks-inl.h */,
+				3A212CC366DE7546B3343BD8 /* syslog_sink.h */,
+				C182DD91518CA09D4AFB3208 /* systemd_sink.h */,
+				ED159A707DD1E9719238148A /* wincolor_sink.h */,
+				7CC7D77231550935BAF201E3 /* wincolor_sink-inl.h */,
+			);
+			name = "sinks";
+			path = "/Volumes/Robin/unreal_projects/MITHCProjectionsDev/Plugins/DDTools/Source/ThirdParty/depsReLog/spdlog/include/spdlog/sinks";
+			sourceTree = "<absolute>";
+		};
+		293F6373D0B519D37D3DDB23 = {
+			isa = PBXGroup;
+			children = (
+				BC6101B3C19A49BA2341841B /* clang_tidy.sh */,
+				309A645E7458C5ACB067B41C /* extract_version.py */,
+				4564423FF09D6352EF9B8227 /* format.sh */,
+			);
+			name = "scripts";
+			path = "/Volumes/Robin/unreal_projects/MITHCProjectionsDev/Plugins/DDTools/Source/ThirdParty/depsReLog/spdlog/scripts";
+			sourceTree = "<absolute>";
+		};
+		A149A58DDAF234A63285967C = {
+			isa = PBXGroup;
+			children = (
+				E059D87403FDBDDF600A180F /* async.cpp */,
+				149BF7D0E6E675AA4B6F5F96 /* color_sinks.cpp */,
+				1C584F826EE31F5898D56067 /* file_sinks.cpp */,
+				123A5711C19530DEE700B48E /* fmt.cpp */,
+				A94C9765710DCFF60A396F34 /* spdlog.cpp */,
+				325C5620265D872A4F666774 /* stdout_sinks.cpp */,
+			);
+			name = "src";
+			path = "/Volumes/Robin/unreal_projects/MITHCProjectionsDev/Plugins/DDTools/Source/ThirdParty/depsReLog/spdlog/src";
+			sourceTree = "<absolute>";
+		};
+		EC531D40DB0CB5F221FB3127 = {
+			isa = PBXGroup;
+			children = (
+				14A6D37AE7851E2B8014B22A /* catch.hpp */,
+				EED6AC3E23B59B4BF770F7C1 /* catch.license */,
+				6EFC4A0C68E5B83E68F53215 /* CMakeLists.txt */,
+				8279777D16FC41BD84508C11 /* includes.h */,
+				D22A3192C37F86493C76BCA9 /* main.cpp */,
+				FEC9299571F6B1812007AAEC /* meson.build */,
+				3038734AC498BD8D203994F9 /* test_async.cpp */,
+				3F37F66F70A6D49E3CCE6439 /* test_backtrace.cpp */,
+				6B8E9CE8D656E6E707F40A8D /* test_create_dir.cpp */,
+				7EFFEC567E9F643F871D03E1 /* test_daily_logger.cpp */,
+				00502C2643274CCDCC3D69D7 /* test_dup_filter.cpp */,
+				2DD69E0E6B33035018F0562D /* test_errors.cpp */,
+				13CAFF902863B0C5DFB3F86C /* test_file_helper.cpp */,
+				CEA6B11425A5F53C5B46FBA1 /* test_file_logging.cpp */,
+				D47D916A31021ED7D6ADC281 /* test_fmt_helper.cpp */,
+				F00A39A8EE340C3DCF1E40A8 /* test_macros.cpp */,
+				F01302897F94511318C87927 /* test_misc.cpp */,
+				B0B81A1FF5DD18490795B8DA /* test_mpmc_q.cpp */,
+				3928E52AF46E47F8EDD1D8C7 /* test_pattern_formatter.cpp */,
+				C777C62F68DA1FCC2768E6CC /* test_registry.cpp */,
+				0D539BE1C45DF429B7C6637D /* test_sink.h */,
+				DB86E4FD231174D0B52B2214 /* test_stdout_api.cpp */,
+				30D9AD9D56B04FBB10D9063E /* test_systemd.cpp */,
+				03D59D8F3D12370395AECC49 /* utils.cpp */,
+				B56DDEF8107440B505399A81 /* utils.h */,
+			);
+			name = "tests";
+			path = "/Volumes/Robin/unreal_projects/MITHCProjectionsDev/Plugins/DDTools/Source/ThirdParty/depsReLog/spdlog/tests";
+			sourceTree = "<absolute>";
+		};
+		2538B06A7FB2BBC0EE24440F = {
+			isa = PBXGroup;
+			children = (
+				0C99AF3D8235DBA3A9E6877C /* Resources */,
+				98D9F87087E801A6177E68A2 /* Source */,
+				DEF8BC0563F98319A20A2AF0 /* highCastlePD.uplugin */,
+			);
+			name = "highCastlePD";
+			path = "/Volumes/Robin/unreal_projects/MITHCProjectionsDev/Plugins/highCastlePD";
+			sourceTree = "<absolute>";
+		};
+		0C99AF3D8235DBA3A9E6877C = {
+			isa = PBXGroup;
+			children = (
+				B80A984C295A173522C21D8E /* Icon128.png */,
+			);
+			name = "Resources";
+			path = "/Volumes/Robin/unreal_projects/MITHCProjectionsDev/Plugins/highCastlePD/Resources";
+			sourceTree = "<absolute>";
+		};
+		98D9F87087E801A6177E68A2 = {
+			isa = PBXGroup;
+			children = (
+				42C9267FCAD68EC70F0D3441 /* highCastlePD */,
+				0E5CD9D358BF6D8AA4B61310 /* ThirdParty */,
+			);
+			name = "Source";
+			path = "/Volumes/Robin/unreal_projects/MITHCProjectionsDev/Plugins/highCastlePD/Source";
+			sourceTree = "<absolute>";
+		};
+		42C9267FCAD68EC70F0D3441 = {
+			isa = PBXGroup;
+			children = (
+				5D7770EC1F8D7D3FB133D2A6 /* Private */,
+				BA4A3806239DF88E310DFBB9 /* Public */,
+				18C1A08F766D3C398420D9CF /* highCastlePD.Build.cs */,
+			);
+			name = "highCastlePD";
+			path = "/Volumes/Robin/unreal_projects/MITHCProjectionsDev/Plugins/highCastlePD/Source/highCastlePD";
+			sourceTree = "<absolute>";
+		};
+		5D7770EC1F8D7D3FB133D2A6 = {
+			isa = PBXGroup;
+			children = (
+				E806C434208651F92B63E04E /* git-describe.h */,
+				0F885C1378183F1FCE84A66F /* highCastlePD.cpp */,
+			);
+			name = "Private";
+			path = "/Volumes/Robin/unreal_projects/MITHCProjectionsDev/Plugins/highCastlePD/Source/highCastlePD/Private";
+			sourceTree = "<absolute>";
+		};
+		BA4A3806239DF88E310DFBB9 = {
+			isa = PBXGroup;
+			children = (
+				D7AC2DDBFB0034393C602498 /* highCastlePD.h */,
+			);
+			name = "Public";
+			path = "/Volumes/Robin/unreal_projects/MITHCProjectionsDev/Plugins/highCastlePD/Source/highCastlePD/Public";
+			sourceTree = "<absolute>";
+		};
+		0E5CD9D358BF6D8AA4B61310 = {
+			isa = PBXGroup;
+			children = (
+				781487890029F00EF67FC47F /* depshighCastlePD */,
+			);
+			name = "ThirdParty";
+			path = "/Volumes/Robin/unreal_projects/MITHCProjectionsDev/Plugins/highCastlePD/Source/ThirdParty";
+			sourceTree = "<absolute>";
+		};
+		781487890029F00EF67FC47F = {
+			isa = PBXGroup;
+			children = (
+				47FF22070AFA056B3B9F3CCB /* depshighCastlePD.Build.cs */,
+				5F91AB9D24FDB208BF3993FC /* depshighCastlePD.tps */,
+			);
+			name = "depshighCastlePD";
+			path = "/Volumes/Robin/unreal_projects/MITHCProjectionsDev/Plugins/highCastlePD/Source/ThirdParty/depshighCastlePD";
+			sourceTree = "<absolute>";
+		};
+		9D87A37115A50F4F7CB7DEC3 = {
+			isa = PBXGroup;
+			children = (
+				B3AAE6F1C547020337288D0F /* ProjectionsDev */,
+				940AC694D607EE88F16DFF10 /* ProjectionsDev.Target.cs */,
+				6EF1EB4E659A8BF798C986A9 /* ProjectionsDevEditor.Target.cs */,
+			);
+			name = "Source";
+			path = "/Volumes/Robin/unreal_projects/MITHCProjectionsDev/Source";
+			sourceTree = "<absolute>";
+		};
+		B3AAE6F1C547020337288D0F = {
+			isa = PBXGroup;
+			children = (
+				9CB1FF9D9BA40FC72C8FA878 /* MyClass.cpp */,
+				3CF1ED2A234791A96AEA0073 /* MyClass.h */,
+				731F9FCCA976F175C2DD60AA /* ProjectionsDev.Build.cs */,
+				C7F2870256A09C85FEF9B703 /* ProjectionsDev.cpp */,
+				28EC5087AA8E8DA0E0C805B7 /* ProjectionsDev.h */,
+			);
+			name = "ProjectionsDev";
+			path = "/Volumes/Robin/unreal_projects/MITHCProjectionsDev/Source/ProjectionsDev";
+			sourceTree = "<absolute>";
+		};
+		1EC6CB76E9C11CD0CAC30055 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				131A65F9E8E17E37E277EDFB /* ProjectionsDev */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXLegacyTarget section */
+		CFBFDDEBACDF77BBE90DB4B2 /* ProjectionsDev_Build */ = {
+			isa = PBXLegacyTarget;
+			buildArgumentsString = "$(ACTION) $(UE_BUILD_TARGET_NAME) $(PLATFORM_NAME) $(UE_BUILD_TARGET_CONFIG) \"/Volumes/Robin/unreal_projects/MITHCProjectionsDev/ProjectionsDev.uproject\" -buildscw";
+			buildConfigurationList = 4BF13222FFE631B9F0C68587 /* Build configuration list for PBXLegacyTarget "ProjectionsDev_Build" */;
+			buildPhases = (
+			);
+			buildToolPath = "/Users/Shared/Epic Games/UE_4.23/Engine/Build/BatchFiles/Mac/XcodeBuild.sh";
+			buildWorkingDirectory = "/Users/Shared/Epic Games/UE_4.23";
+			dependencies = (
+			);
+			name = "ProjectionsDev_Build";
+			passBuildSettingsInEnvironment = 1;
+			productName = "ProjectionsDev_Build";
+		};
+/* End PBXLegacyTarget section */
+
+/* Begin PBXNativeTarget section */
+		334C9B7ECB4B587FF33D96C7 /* ProjectionsDev */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C876B33C4A3A894826FC6A24 /* Build configuration list for PBXNativeTarget "ProjectionsDev" */;
+			buildPhases = (
+				D93E0EBA3457283B49FC7384 /* Embed App Extensions */, 
+				D8916E66BF2B224A1F05D6BF /* Shell Script */, 
+			);
+			dependencies = (
+			);
+			name = "ProjectionsDev";
+			passBuildSettingsInEnvironment = 1;
+			productName = "ProjectionsDev";
+			productReference = "131A65F9E8E17E37E277EDFB";
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXNativeTarget section */
+		A398CD6E8D56C210AAF4C956 /* ProjectionsDev_Index */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2612D7125E24CC0565B2ADF7 /* Build configuration list for PBXNativeTarget "ProjectionsDev_Index" */;
+			buildPhases = (
+				F53ABAC2AB56CFD3604AED26 /* Sources */,
+			);
+			dependencies = (
+			);
+			name = "ProjectionsDev_Index";
+			passBuildSettingsInEnvironment = 1;
+			productName = "ProjectionsDev_Index";
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AF5C37FC45340A083A564713 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 2000;
+				ORGANIZATIONNAME = "Epic Games, Inc.";
+				TargetAttributes = {
+					334C9B7ECB4B587FF33D96C7 = {
+						ProvisioningStyle = Manual;
+					};
+				};
+			};
+			buildConfigurationList = 12092E924AA3075727DBFCED /* Build configuration list for PBXProject "ProjectionsDev" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en
+			);
+			mainGroup = 0E1F5ACCF98021F0EAD6BF31;
+			productRefGroup = 1EC6CB76E9C11CD0CAC30055;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+			334C9B7ECB4B587FF33D96C7 /* ProjectionsDev */,
+			CFBFDDEBACDF77BBE90DB4B2 /* ProjectionsDev_Build */,
+			A398CD6E8D56C210AAF4C956 /* ProjectionsDev_Index */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin XCBuildConfiguration section */
+		C55E449406EBD1D4D9A49CAA /* "DebugGame" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"__INTELLISENSE__",
+					"MONOLITHIC_BUILD=1",
+				);
+				HEADER_SEARCH_PATHS = (
+				);
+				USER_HEADER_SEARCH_PATHS = (
+				);
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "c++14";
+				GCC_ENABLE_CPP_RTTI = NO;
+				GCC_WARN_CHECK_SWITCH_STATEMENTS = NO;
+				USE_HEADERMAP = NO;
+			};
+			name = "DebugGame";
+		};
+		8FAFAF5AF9DCF98F742AAC9E /* "DebugGame Editor" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"__INTELLISENSE__",
+					"MONOLITHIC_BUILD=1",
+				);
+				HEADER_SEARCH_PATHS = (
+				);
+				USER_HEADER_SEARCH_PATHS = (
+				);
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "c++14";
+				GCC_ENABLE_CPP_RTTI = NO;
+				GCC_WARN_CHECK_SWITCH_STATEMENTS = NO;
+				USE_HEADERMAP = NO;
+			};
+			name = "DebugGame Editor";
+		};
+		F274952C824FEECA4FA8CA4B /* "Development" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"__INTELLISENSE__",
+					"MONOLITHIC_BUILD=1",
+				);
+				HEADER_SEARCH_PATHS = (
+				);
+				USER_HEADER_SEARCH_PATHS = (
+				);
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "c++14";
+				GCC_ENABLE_CPP_RTTI = NO;
+				GCC_WARN_CHECK_SWITCH_STATEMENTS = NO;
+				USE_HEADERMAP = NO;
+			};
+			name = "Development";
+		};
+		61A3E15EAC6796BD30A43ECC /* "Development Editor" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"__INTELLISENSE__",
+					"MONOLITHIC_BUILD=1",
+				);
+				HEADER_SEARCH_PATHS = (
+				);
+				USER_HEADER_SEARCH_PATHS = (
+				);
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "c++14";
+				GCC_ENABLE_CPP_RTTI = NO;
+				GCC_WARN_CHECK_SWITCH_STATEMENTS = NO;
+				USE_HEADERMAP = NO;
+			};
+			name = "Development Editor";
+		};
+		7451C2106BACE57406D57727 /* "Shipping" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"__INTELLISENSE__",
+					"MONOLITHIC_BUILD=1",
+				);
+				HEADER_SEARCH_PATHS = (
+				);
+				USER_HEADER_SEARCH_PATHS = (
+				);
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "c++14";
+				GCC_ENABLE_CPP_RTTI = NO;
+				GCC_WARN_CHECK_SWITCH_STATEMENTS = NO;
+				USE_HEADERMAP = NO;
+			};
+			name = "Shipping";
+		};
+		B2629B729BC40BF9C636EA19 /* "DebugGame" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				VALID_ARCHS = "x86_64 arm64 armv7 armv7s";
+				SUPPORTED_PLATFORMS = "macosx iphoneos";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				"PRODUCT_NAME[sdk=iphoneos*]" = "ProjectionsDev";
+				"TARGETED_DEVICE_FAMILY[sdk=iphoneos*]" = "1,2";
+				"SDKROOT[sdk=iphoneos]" = iphoneos;
+				"DEVELOPMENT_TEAM[sdk=iphoneos*]" = SC33BJMPXV;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				"PROVISIONING_PROFILE_SPECIFIER[sdk=iphoneos*]" = "85bc7ad4-2b43-4429-b2e0-af4e0bb3381c";
+				"PRODUCT_BUNDLE_IDENTIFIER[sdk=iphoneos*]" = edu.ucla.remap.xr.projectionsDev;
+				"PRODUCT_NAME[sdk=macosx*]" = "ProjectionsDev-Mac-DebugGame";
+				"CONFIGURATION_BUILD_DIR[sdk=macosx*]" = "/Volumes/Robin/unreal_projects/MITHCProjectionsDev/Binaries/Mac";
+				"SDKROOT[sdk=macosx]" = macosx;
+				"CONFIGURATION_BUILD_DIR[sdk=iphoneos*]" = "/Volumes/Robin/unreal_projects/MITHCProjectionsDev/Binaries/IOS/Payload";
+				INFOPLIST_FILE = "/Volumes/Robin/unreal_projects/MITHCProjectionsDev/Intermediate/IOS/ProjectionsDev-Info.plist";
+				CODE_SIGN_ENTITLEMENTS = "/Volumes/Robin/unreal_projects/MITHCProjectionsDev/Intermediate/IOS/ProjectionsDev.entitlements";
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				INFOPLIST_OUTPUT_FORMAT = xml;
+				COMBINE_HIDPI_IMAGES = YES;
+				SDKROOT = iphoneos;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "/Users/Shared/Epic Games/UE_4.23/Engine/Source/Editor/UnrealEd/Public/UnrealEd.h";
+			};
+			name = "DebugGame";
+		};
+		D79CAC369DC841646EC56007 /* "DebugGame Editor" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				VALID_ARCHS = "x86_64";
+				SUPPORTED_PLATFORMS = "macosx";
+				PRODUCT_NAME = "UE4Editor-Mac-DebugGame";
+				CONFIGURATION_BUILD_DIR = "/Users/Shared/Epic Games/UE_4.23/Engine/Binaries/Mac";
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				INFOPLIST_OUTPUT_FORMAT = xml;
+				COMBINE_HIDPI_IMAGES = YES;
+				SDKROOT = iphoneos;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "/Users/Shared/Epic Games/UE_4.23/Engine/Source/Editor/UnrealEd/Public/UnrealEd.h";
+			};
+			name = "DebugGame Editor";
+		};
+		0FD203BD0588E91FF73543F1 /* "Development" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				VALID_ARCHS = "x86_64 arm64 armv7 armv7s";
+				SUPPORTED_PLATFORMS = "macosx iphoneos";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				"PRODUCT_NAME[sdk=iphoneos*]" = "ProjectionsDev";
+				"TARGETED_DEVICE_FAMILY[sdk=iphoneos*]" = "1,2";
+				"SDKROOT[sdk=iphoneos]" = iphoneos;
+				"DEVELOPMENT_TEAM[sdk=iphoneos*]" = SC33BJMPXV;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				"PROVISIONING_PROFILE_SPECIFIER[sdk=iphoneos*]" = "85bc7ad4-2b43-4429-b2e0-af4e0bb3381c";
+				"PRODUCT_BUNDLE_IDENTIFIER[sdk=iphoneos*]" = edu.ucla.remap.xr.projectionsDev;
+				"PRODUCT_NAME[sdk=macosx*]" = "ProjectionsDev";
+				"CONFIGURATION_BUILD_DIR[sdk=macosx*]" = "/Volumes/Robin/unreal_projects/MITHCProjectionsDev/Binaries/Mac";
+				"SDKROOT[sdk=macosx]" = macosx;
+				"CONFIGURATION_BUILD_DIR[sdk=iphoneos*]" = "/Volumes/Robin/unreal_projects/MITHCProjectionsDev/Binaries/IOS/Payload";
+				INFOPLIST_FILE = "/Volumes/Robin/unreal_projects/MITHCProjectionsDev/Intermediate/IOS/ProjectionsDev-Info.plist";
+				CODE_SIGN_ENTITLEMENTS = "/Volumes/Robin/unreal_projects/MITHCProjectionsDev/Intermediate/IOS/ProjectionsDev.entitlements";
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				INFOPLIST_OUTPUT_FORMAT = xml;
+				COMBINE_HIDPI_IMAGES = YES;
+				SDKROOT = iphoneos;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "/Users/Shared/Epic Games/UE_4.23/Engine/Source/Editor/UnrealEd/Public/UnrealEd.h";
+			};
+			name = "Development";
+		};
+		40E565D688D124CF9DEC9C0C /* "Development Editor" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				VALID_ARCHS = "x86_64";
+				SUPPORTED_PLATFORMS = "macosx";
+				PRODUCT_NAME = "UE4Editor";
+				CONFIGURATION_BUILD_DIR = "/Users/Shared/Epic Games/UE_4.23/Engine/Binaries/Mac";
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				INFOPLIST_OUTPUT_FORMAT = xml;
+				COMBINE_HIDPI_IMAGES = YES;
+				SDKROOT = iphoneos;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "/Users/Shared/Epic Games/UE_4.23/Engine/Source/Editor/UnrealEd/Public/UnrealEd.h";
+			};
+			name = "Development Editor";
+		};
+		1179B03894E093B53DA43FC7 /* "Shipping" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				VALID_ARCHS = "x86_64 arm64 armv7 armv7s";
+				SUPPORTED_PLATFORMS = "macosx iphoneos";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				"PRODUCT_NAME[sdk=iphoneos*]" = "ProjectionsDev";
+				"TARGETED_DEVICE_FAMILY[sdk=iphoneos*]" = "1,2";
+				"SDKROOT[sdk=iphoneos]" = iphoneos;
+				"DEVELOPMENT_TEAM[sdk=iphoneos*]" = SC33BJMPXV;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				"PROVISIONING_PROFILE_SPECIFIER[sdk=iphoneos*]" = "85bc7ad4-2b43-4429-b2e0-af4e0bb3381c";
+				"PRODUCT_BUNDLE_IDENTIFIER[sdk=iphoneos*]" = edu.ucla.remap.xr.projectionsDev;
+				"PRODUCT_NAME[sdk=macosx*]" = "ProjectionsDev-Mac-Shipping";
+				"CONFIGURATION_BUILD_DIR[sdk=macosx*]" = "/Volumes/Robin/unreal_projects/MITHCProjectionsDev/Binaries/Mac";
+				"SDKROOT[sdk=macosx]" = macosx;
+				"CONFIGURATION_BUILD_DIR[sdk=iphoneos*]" = "/Volumes/Robin/unreal_projects/MITHCProjectionsDev/Binaries/IOS/Payload";
+				INFOPLIST_FILE = "/Volumes/Robin/unreal_projects/MITHCProjectionsDev/Intermediate/IOS/ProjectionsDev-Info.plist";
+				CODE_SIGN_ENTITLEMENTS = "/Volumes/Robin/unreal_projects/MITHCProjectionsDev/Intermediate/IOS/ProjectionsDev.entitlements";
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				INFOPLIST_OUTPUT_FORMAT = xml;
+				COMBINE_HIDPI_IMAGES = YES;
+				SDKROOT = iphoneos;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "/Users/Shared/Epic Games/UE_4.23/Engine/Source/Editor/UnrealEd/Public/UnrealEd.h";
+			};
+			name = "Shipping";
+		};
+		E768143427A207D4684EF4D5 /* "DebugGame" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				VALID_ARCHS = "x86_64 arm64 armv7 armv7s";
+				SUPPORTED_PLATFORMS = "macosx iphoneos";
+				GCC_PREPROCESSOR_DEFINITIONS = ();
+				HEADER_SEARCH_PATHS = ();
+				USER_HEADER_SEARCH_PATHS = ();
+				UE_BUILD_TARGET_NAME = "ProjectionsDev";
+				UE_BUILD_TARGET_CONFIG = "DebugGame";
+			};
+			name = "DebugGame";
+		};
+		8FADCD278BB62523B4B7A477 /* "DebugGame Editor" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				VALID_ARCHS = "x86_64";
+				SUPPORTED_PLATFORMS = "macosx";
+				GCC_PREPROCESSOR_DEFINITIONS = ();
+				HEADER_SEARCH_PATHS = ();
+				USER_HEADER_SEARCH_PATHS = ();
+				UE_BUILD_TARGET_NAME = "ProjectionsDevEditor";
+				UE_BUILD_TARGET_CONFIG = "DebugGame";
+			};
+			name = "DebugGame Editor";
+		};
+		EDB50E0964781FF9273F3417 /* "Development" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				VALID_ARCHS = "x86_64 arm64 armv7 armv7s";
+				SUPPORTED_PLATFORMS = "macosx iphoneos";
+				GCC_PREPROCESSOR_DEFINITIONS = ();
+				HEADER_SEARCH_PATHS = ();
+				USER_HEADER_SEARCH_PATHS = ();
+				UE_BUILD_TARGET_NAME = "ProjectionsDev";
+				UE_BUILD_TARGET_CONFIG = "Development";
+			};
+			name = "Development";
+		};
+		E785551D0CF80F5E398BA8C1 /* "Development Editor" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				VALID_ARCHS = "x86_64";
+				SUPPORTED_PLATFORMS = "macosx";
+				GCC_PREPROCESSOR_DEFINITIONS = ();
+				HEADER_SEARCH_PATHS = ();
+				USER_HEADER_SEARCH_PATHS = ();
+				UE_BUILD_TARGET_NAME = "ProjectionsDevEditor";
+				UE_BUILD_TARGET_CONFIG = "Development";
+			};
+			name = "Development Editor";
+		};
+		83642726061F52126171A8BB /* "Shipping" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				VALID_ARCHS = "x86_64 arm64 armv7 armv7s";
+				SUPPORTED_PLATFORMS = "macosx iphoneos";
+				GCC_PREPROCESSOR_DEFINITIONS = ();
+				HEADER_SEARCH_PATHS = ();
+				USER_HEADER_SEARCH_PATHS = ();
+				UE_BUILD_TARGET_NAME = "ProjectionsDev";
+				UE_BUILD_TARGET_CONFIG = "Shipping";
+			};
+			name = "Shipping";
+		};
+		1294345D2B9FAA33F4C4B45C /* "DebugGame" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				VALID_ARCHS = "x86_64 arm64 armv7 armv7s";
+				SUPPORTED_PLATFORMS = "macosx iphoneos";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				"PRODUCT_NAME[sdk=iphoneos*]" = "ProjectionsDev";
+				"TARGETED_DEVICE_FAMILY[sdk=iphoneos*]" = "1,2";
+				"SDKROOT[sdk=iphoneos]" = iphoneos;
+				"DEVELOPMENT_TEAM[sdk=iphoneos*]" = SC33BJMPXV;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				"PROVISIONING_PROFILE_SPECIFIER[sdk=iphoneos*]" = "85bc7ad4-2b43-4429-b2e0-af4e0bb3381c";
+				"PRODUCT_BUNDLE_IDENTIFIER[sdk=iphoneos*]" = edu.ucla.remap.xr.projectionsDev;
+				"PRODUCT_NAME[sdk=macosx*]" = "ProjectionsDev-Mac-DebugGame";
+				"CONFIGURATION_BUILD_DIR[sdk=macosx*]" = "/Volumes/Robin/unreal_projects/MITHCProjectionsDev/Binaries/Mac";
+				"SDKROOT[sdk=macosx]" = macosx;
+				"CONFIGURATION_BUILD_DIR[sdk=iphoneos*]" = "/Volumes/Robin/unreal_projects/MITHCProjectionsDev/Binaries/IOS/Payload";
+				INFOPLIST_FILE = "/Volumes/Robin/unreal_projects/MITHCProjectionsDev/Intermediate/IOS/ProjectionsDev-Info.plist";
+				CODE_SIGN_ENTITLEMENTS = "/Volumes/Robin/unreal_projects/MITHCProjectionsDev/Intermediate/IOS/ProjectionsDev.entitlements";
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				INFOPLIST_OUTPUT_FORMAT = xml;
+				COMBINE_HIDPI_IMAGES = YES;
+				SDKROOT = iphoneos;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "/Users/Shared/Epic Games/UE_4.23/Engine/Source/Editor/UnrealEd/Public/UnrealEd.h";
+			};
+			name = "DebugGame";
+		};
+		F3ACDA8B556461E7E796868E /* "DebugGame Editor" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				VALID_ARCHS = "x86_64";
+				SUPPORTED_PLATFORMS = "macosx";
+				PRODUCT_NAME = "UE4Editor-Mac-DebugGame";
+				CONFIGURATION_BUILD_DIR = "/Users/Shared/Epic Games/UE_4.23/Engine/Binaries/Mac";
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				INFOPLIST_OUTPUT_FORMAT = xml;
+				COMBINE_HIDPI_IMAGES = YES;
+				SDKROOT = iphoneos;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "/Users/Shared/Epic Games/UE_4.23/Engine/Source/Editor/UnrealEd/Public/UnrealEd.h";
+			};
+			name = "DebugGame Editor";
+		};
+		21F9A164C9DA284AE18F7C83 /* "Development" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				VALID_ARCHS = "x86_64 arm64 armv7 armv7s";
+				SUPPORTED_PLATFORMS = "macosx iphoneos";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				"PRODUCT_NAME[sdk=iphoneos*]" = "ProjectionsDev";
+				"TARGETED_DEVICE_FAMILY[sdk=iphoneos*]" = "1,2";
+				"SDKROOT[sdk=iphoneos]" = iphoneos;
+				"DEVELOPMENT_TEAM[sdk=iphoneos*]" = SC33BJMPXV;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				"PROVISIONING_PROFILE_SPECIFIER[sdk=iphoneos*]" = "85bc7ad4-2b43-4429-b2e0-af4e0bb3381c";
+				"PRODUCT_BUNDLE_IDENTIFIER[sdk=iphoneos*]" = edu.ucla.remap.xr.projectionsDev;
+				"PRODUCT_NAME[sdk=macosx*]" = "ProjectionsDev";
+				"CONFIGURATION_BUILD_DIR[sdk=macosx*]" = "/Volumes/Robin/unreal_projects/MITHCProjectionsDev/Binaries/Mac";
+				"SDKROOT[sdk=macosx]" = macosx;
+				"CONFIGURATION_BUILD_DIR[sdk=iphoneos*]" = "/Volumes/Robin/unreal_projects/MITHCProjectionsDev/Binaries/IOS/Payload";
+				INFOPLIST_FILE = "/Volumes/Robin/unreal_projects/MITHCProjectionsDev/Intermediate/IOS/ProjectionsDev-Info.plist";
+				CODE_SIGN_ENTITLEMENTS = "/Volumes/Robin/unreal_projects/MITHCProjectionsDev/Intermediate/IOS/ProjectionsDev.entitlements";
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				INFOPLIST_OUTPUT_FORMAT = xml;
+				COMBINE_HIDPI_IMAGES = YES;
+				SDKROOT = iphoneos;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "/Users/Shared/Epic Games/UE_4.23/Engine/Source/Editor/UnrealEd/Public/UnrealEd.h";
+			};
+			name = "Development";
+		};
+		97C14DBFA877E67DBAD523E4 /* "Development Editor" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				VALID_ARCHS = "x86_64";
+				SUPPORTED_PLATFORMS = "macosx";
+				PRODUCT_NAME = "UE4Editor";
+				CONFIGURATION_BUILD_DIR = "/Users/Shared/Epic Games/UE_4.23/Engine/Binaries/Mac";
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				INFOPLIST_OUTPUT_FORMAT = xml;
+				COMBINE_HIDPI_IMAGES = YES;
+				SDKROOT = iphoneos;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "/Users/Shared/Epic Games/UE_4.23/Engine/Source/Editor/UnrealEd/Public/UnrealEd.h";
+			};
+			name = "Development Editor";
+		};
+		36FFF28CA633BAC14A26AE2E /* "Shipping" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				VALID_ARCHS = "x86_64 arm64 armv7 armv7s";
+				SUPPORTED_PLATFORMS = "macosx iphoneos";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				"PRODUCT_NAME[sdk=iphoneos*]" = "ProjectionsDev";
+				"TARGETED_DEVICE_FAMILY[sdk=iphoneos*]" = "1,2";
+				"SDKROOT[sdk=iphoneos]" = iphoneos;
+				"DEVELOPMENT_TEAM[sdk=iphoneos*]" = SC33BJMPXV;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				"PROVISIONING_PROFILE_SPECIFIER[sdk=iphoneos*]" = "85bc7ad4-2b43-4429-b2e0-af4e0bb3381c";
+				"PRODUCT_BUNDLE_IDENTIFIER[sdk=iphoneos*]" = edu.ucla.remap.xr.projectionsDev;
+				"PRODUCT_NAME[sdk=macosx*]" = "ProjectionsDev-Mac-Shipping";
+				"CONFIGURATION_BUILD_DIR[sdk=macosx*]" = "/Volumes/Robin/unreal_projects/MITHCProjectionsDev/Binaries/Mac";
+				"SDKROOT[sdk=macosx]" = macosx;
+				"CONFIGURATION_BUILD_DIR[sdk=iphoneos*]" = "/Volumes/Robin/unreal_projects/MITHCProjectionsDev/Binaries/IOS/Payload";
+				INFOPLIST_FILE = "/Volumes/Robin/unreal_projects/MITHCProjectionsDev/Intermediate/IOS/ProjectionsDev-Info.plist";
+				CODE_SIGN_ENTITLEMENTS = "/Volumes/Robin/unreal_projects/MITHCProjectionsDev/Intermediate/IOS/ProjectionsDev.entitlements";
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				INFOPLIST_OUTPUT_FORMAT = xml;
+				COMBINE_HIDPI_IMAGES = YES;
+				SDKROOT = iphoneos;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "/Users/Shared/Epic Games/UE_4.23/Engine/Source/Editor/UnrealEd/Public/UnrealEd.h";
+			};
+			name = "Shipping";
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		12092E924AA3075727DBFCED /* Build configuration list for PBXProject "ProjectionsDev" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C55E449406EBD1D4D9A49CAA /* "DebugGame" */,
+				8FAFAF5AF9DCF98F742AAC9E /* "DebugGame Editor" */,
+				F274952C824FEECA4FA8CA4B /* "Development" */,
+				61A3E15EAC6796BD30A43ECC /* "Development Editor" */,
+				7451C2106BACE57406D57727 /* "Shipping" */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Development;
+		};
+		4BF13222FFE631B9F0C68587 /* Build configuration list for PBXLegacyTarget "ProjectionsDev_Build" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E768143427A207D4684EF4D5 /* "DebugGame" */,
+				8FADCD278BB62523B4B7A477 /* "DebugGame Editor" */,
+				EDB50E0964781FF9273F3417 /* "Development" */,
+				E785551D0CF80F5E398BA8C1 /* "Development Editor" */,
+				83642726061F52126171A8BB /* "Shipping" */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Development;
+		};
+		C876B33C4A3A894826FC6A24 /* Build configuration list for PBXNativeTarget "ProjectionsDev" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B2629B729BC40BF9C636EA19 /* "DebugGame" */,
+				D79CAC369DC841646EC56007 /* "DebugGame Editor" */,
+				0FD203BD0588E91FF73543F1 /* "Development" */,
+				40E565D688D124CF9DEC9C0C /* "Development Editor" */,
+				1179B03894E093B53DA43FC7 /* "Shipping" */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Development;
+		};
+		2612D7125E24CC0565B2ADF7 /* Build configuration list for PBXNativeTarget "ProjectionsDev_Index" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1294345D2B9FAA33F4C4B45C /* "DebugGame" */,
+				F3ACDA8B556461E7E796868E /* "DebugGame Editor" */,
+				21F9A164C9DA284AE18F7C83 /* "Development" */,
+				97C14DBFA877E67DBAD523E4 /* "Development Editor" */,
+				36FFF28CA633BAC14A26AE2E /* "Shipping" */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Development;
+		};
+/* End XCConfigurationList section */
+/* Begin PBXShellScriptBuildPhase section */
+		D8916E66BF2B224A1F05D6BF /* Sign Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			name = "Sign Manual Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "set -e\n\nif [ $PLATFORM_NAME = iphoneos ] || [ $PLATFORM_NAME = tvos ]; then \n\tFRAMEWORK_DIR=$TARGET_BUILD_DIR/$EXECUTABLE_FOLDER_PATH/Frameworks\n\tfor FRAMEWORK in ${FRAMEWORK_DIR}/*.framework; do\n\t\t[ -d \"${FRAMEWORK}\" ] || continue\n\t\techo Codesigning ${FRAMEWORK}\n\t\tcodesign --force --sign ${EXPANDED_CODE_SIGN_IDENTITY} --verbose --preserve-metadata=identifier,entitlements,flags --timestamp=none \"${FRAMEWORK}\"\n\tdone\nfi\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+	};
+	rootObject = AF5C37FC45340A083A564713 /* Project object */;
+}
