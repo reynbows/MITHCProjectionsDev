@@ -1112,10 +1112,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				"CODE_SIGN_ENTITLEMENTS[sdk=iphoneos*]" = /Volumes/Robin/unreal_projects/MITHCProjectionsDev/Intermediate/IOS/ProjectionsDev.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Distribution";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_STYLE = Manual;
 				COMBINE_HIDPI_IMAGES = YES;
 				"CONFIGURATION_BUILD_DIR[sdk=iphoneos*]" = /Volumes/Robin/unreal_projects/MITHCProjectionsDev/Binaries/IOS/Payload;
 				"CONFIGURATION_BUILD_DIR[sdk=macosx*]" = /Volumes/Robin/unreal_projects/MITHCProjectionsDev/Binaries/Mac;
+				DEVELOPMENT_TEAM = SC33BJMPXV;
 				"DEVELOPMENT_TEAM[sdk=iphoneos*]" = SC33BJMPXV;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "/Users/Shared/Epic Games/UE_4.23/Engine/Source/Editor/UnrealEd/Public/UnrealEd.h";
@@ -1127,6 +1130,7 @@
 				"PRODUCT_BUNDLE_IDENTIFIER[sdk=iphoneos*]" = edu.ucla.remap.xr.projectionsDev;
 				"PRODUCT_NAME[sdk=iphoneos*]" = ProjectionsDev;
 				"PRODUCT_NAME[sdk=macosx*]" = ProjectionsDev;
+				PROVISIONING_PROFILE_SPECIFIER = "REMAP XR Distribution";
 				"PROVISIONING_PROFILE_SPECIFIER[sdk=iphoneos*]" = "85bc7ad4-2b43-4429-b2e0-af4e0bb3381c";
 				SDKROOT = iphoneos;
 				"SDKROOT[sdk=iphoneos]" = iphoneos;
@@ -1142,10 +1146,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				"CODE_SIGN_ENTITLEMENTS[sdk=iphoneos*]" = /Volumes/Robin/unreal_projects/MITHCProjectionsDev/Intermediate/IOS/ProjectionsDev.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Distribution";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_STYLE = Manual;
 				COMBINE_HIDPI_IMAGES = YES;
 				"CONFIGURATION_BUILD_DIR[sdk=iphoneos*]" = /Volumes/Robin/unreal_projects/MITHCProjectionsDev/Binaries/IOS/Payload;
 				"CONFIGURATION_BUILD_DIR[sdk=macosx*]" = /Volumes/Robin/unreal_projects/MITHCProjectionsDev/Binaries/Mac;
+				DEVELOPMENT_TEAM = SC33BJMPXV;
 				"DEVELOPMENT_TEAM[sdk=iphoneos*]" = SC33BJMPXV;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "/Users/Shared/Epic Games/UE_4.23/Engine/Source/Editor/UnrealEd/Public/UnrealEd.h";
@@ -1157,6 +1164,7 @@
 				"PRODUCT_BUNDLE_IDENTIFIER[sdk=iphoneos*]" = edu.ucla.remap.xr.projectionsDev;
 				"PRODUCT_NAME[sdk=iphoneos*]" = ProjectionsDev;
 				"PRODUCT_NAME[sdk=macosx*]" = "ProjectionsDev-Mac-Shipping";
+				PROVISIONING_PROFILE_SPECIFIER = "REMAP XR Distribution";
 				"PROVISIONING_PROFILE_SPECIFIER[sdk=iphoneos*]" = "85bc7ad4-2b43-4429-b2e0-af4e0bb3381c";
 				SDKROOT = iphoneos;
 				"SDKROOT[sdk=iphoneos]" = iphoneos;
@@ -1587,10 +1595,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				"CODE_SIGN_ENTITLEMENTS[sdk=iphoneos*]" = /Volumes/Robin/unreal_projects/MITHCProjectionsDev/Intermediate/IOS/ProjectionsDev.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Distribution";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_STYLE = Manual;
 				COMBINE_HIDPI_IMAGES = YES;
 				"CONFIGURATION_BUILD_DIR[sdk=iphoneos*]" = /Volumes/Robin/unreal_projects/MITHCProjectionsDev/Binaries/IOS/Payload;
 				"CONFIGURATION_BUILD_DIR[sdk=macosx*]" = /Volumes/Robin/unreal_projects/MITHCProjectionsDev/Binaries/Mac;
+				DEVELOPMENT_TEAM = SC33BJMPXV;
 				"DEVELOPMENT_TEAM[sdk=iphoneos*]" = SC33BJMPXV;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "/Users/Shared/Epic Games/UE_4.23/Engine/Source/Editor/UnrealEd/Public/UnrealEd.h";
@@ -1602,6 +1613,7 @@
 				"PRODUCT_BUNDLE_IDENTIFIER[sdk=iphoneos*]" = edu.ucla.remap.xr.projectionsDev;
 				"PRODUCT_NAME[sdk=iphoneos*]" = ProjectionsDev;
 				"PRODUCT_NAME[sdk=macosx*]" = "ProjectionsDev-Mac-DebugGame";
+				PROVISIONING_PROFILE_SPECIFIER = "REMAP XR Distribution";
 				"PROVISIONING_PROFILE_SPECIFIER[sdk=iphoneos*]" = "85bc7ad4-2b43-4429-b2e0-af4e0bb3381c";
 				SDKROOT = iphoneos;
 				"SDKROOT[sdk=iphoneos]" = iphoneos;
@@ -1659,12 +1671,15 @@
 		40E565D688D124CF9DEC9C0C /* Development Editor */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
 				COMBINE_HIDPI_IMAGES = YES;
 				CONFIGURATION_BUILD_DIR = "/Users/Shared/Epic Games/UE_4.23/Engine/Binaries/Mac";
+				DEVELOPMENT_TEAM = "";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "/Users/Shared/Epic Games/UE_4.23/Engine/Source/Editor/UnrealEd/Public/UnrealEd.h";
 				INFOPLIST_OUTPUT_FORMAT = xml;
 				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				PRODUCT_BUNDLE_IDENTIFIER = edu.ucla.remap.xr.projectionsDev;
 				PRODUCT_NAME = UE4Editor;
 				SDKROOT = macosx;
 				SERVER_URL = "";
@@ -2703,10 +2718,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				"CODE_SIGN_ENTITLEMENTS[sdk=iphoneos*]" = /Volumes/Robin/unreal_projects/MITHCProjectionsDev/Intermediate/IOS/ProjectionsDev.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Distribution";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_STYLE = Manual;
 				COMBINE_HIDPI_IMAGES = YES;
 				"CONFIGURATION_BUILD_DIR[sdk=iphoneos*]" = /Volumes/Robin/unreal_projects/MITHCProjectionsDev/Binaries/IOS/Payload;
 				"CONFIGURATION_BUILD_DIR[sdk=macosx*]" = /Volumes/Robin/unreal_projects/MITHCProjectionsDev/Binaries/Mac;
+				DEVELOPMENT_TEAM = SC33BJMPXV;
 				"DEVELOPMENT_TEAM[sdk=iphoneos*]" = SC33BJMPXV;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "/Users/Shared/Epic Games/UE_4.23/Engine/Source/Editor/UnrealEd/Public/UnrealEd.h";
@@ -2718,6 +2736,7 @@
 				"PRODUCT_BUNDLE_IDENTIFIER[sdk=iphoneos*]" = edu.ucla.remap.xr.projectionsDev;
 				"PRODUCT_NAME[sdk=iphoneos*]" = ProjectionsDev;
 				"PRODUCT_NAME[sdk=macosx*]" = "ProjectionsDev-Mac-DebugGame";
+				PROVISIONING_PROFILE_SPECIFIER = "REMAP XR Distribution";
 				"PROVISIONING_PROFILE_SPECIFIER[sdk=iphoneos*]" = "85bc7ad4-2b43-4429-b2e0-af4e0bb3381c";
 				SDKROOT = iphoneos;
 				"SDKROOT[sdk=iphoneos]" = iphoneos;
@@ -3060,12 +3079,15 @@
 		D79CAC369DC841646EC56007 /* DebugGame Editor */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
 				COMBINE_HIDPI_IMAGES = YES;
 				CONFIGURATION_BUILD_DIR = "/Users/Shared/Epic Games/UE_4.23/Engine/Binaries/Mac";
+				DEVELOPMENT_TEAM = "";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "/Users/Shared/Epic Games/UE_4.23/Engine/Source/Editor/UnrealEd/Public/UnrealEd.h";
 				INFOPLIST_OUTPUT_FORMAT = xml;
 				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				PRODUCT_BUNDLE_IDENTIFIER = edu.ucla.remap.xr.projectionsDev;
 				PRODUCT_NAME = "UE4Editor-Mac-DebugGame";
 				SDKROOT = macosx;
 				SERVER_URL = "";
